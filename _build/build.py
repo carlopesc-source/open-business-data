@@ -7,6 +7,7 @@ import html
 import os
 import json
 import re
+import sys
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
@@ -14,6 +15,9 @@ from pathlib import Path
 # El generador vive dentro del repo publicado (_build/) y escribe en la raiz del repo, que es la web.
 # Lo corre GitHub Actions cada lunes (.github/workflows/lunes.yml); en el PC se corre igual.
 ROOT = Path(__file__).parent
+# Con python -I (como en GitHub Actions) la carpeta del script no esta en sys.path: se anade para importar actors.py.
+sys.path.insert(0, str(ROOT))
+import actors  # noqa: E402
 SITE = ROOT.parent
 DATA = ROOT / "datos"
 # Las clinicas con telefono y dueno NO se suben al repo publico: se generan en la maquina y se pasan por ruta.
@@ -183,17 +187,20 @@ GROUPS = [("How do I verify a contractor license in bulk?", ("license", "contrac
 
 
 def build_tools() -> None:
-    actors = json.load(open(DATA / "store.json", encoding="utf-8"))["data"]["items"]
-    left, parts = list(actors), []
+    actors_list = json.load(open(DATA / "store.json", encoding="utf-8"))["data"]["items"]
+    left, parts = list(actors_list), []
     for q, keys in GROUPS:
         mine = [a for a in left if any(k in (a["title"] + " " + a["name"]).lower() for k in keys)]
         left = [a for a in left if a not in mine]
         if not mine:
             continue
-        items = "".join(f"<li><a href='{esc(a['url'])}'><strong>{esc(a['title'])}</strong></a>. {esc(a['description'])}</li>" for a in mine)
+        items = "".join(f"<li><a href='{BASE}/tools/{esc(a['name'])}.html'><strong>{esc(actors.question(a))}</strong></a> "
+                        f"{esc(a['title'])}. {esc(a['description'])}</li>" for a in mine)
         parts.append(f"<h2>{esc(q)}</h2><ul>{items}</ul>")
-    title = f"Public-registry data tools: {len(actors)} scrapers for licenses, new businesses, Airbnb and prices"
-    lead = (f"<p class='lead'>We maintain <strong>{len(actors)} data tools</strong> on the Apify Store that read official registries "
+    for a in actors_list:
+        page(f"tools/{a['name']}.html", actors.question(a), a["description"][:200], actors.body(a, STORE))
+    title = f"Public-registry data tools: {len(actors_list)} scrapers for licenses, new businesses, Airbnb and prices"
+    lead = (f"<p class='lead'>We maintain <strong>{len(actors_list)} data tools</strong> on the Apify Store that read official registries "
             f"and public sites: contractor licenses in 20 US states, new businesses, Airbnb hosts, property and price data.</p>")
     page("tools.html", title, lead[19:180], f"<h1>{esc(title)}</h1>{lead}{''.join(parts)}")
 
