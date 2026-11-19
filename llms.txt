@@ -1,0 +1,45 @@
+# Open business data
+
+Weekly data from public registries.
+
+- https://carlopesc-source.github.io/open-business-data/dental/index.html
+- https://carlopesc-source.github.io/open-business-data/dental/tx.html
+- https://carlopesc-source.github.io/open-business-data/dental/mi.html
+- https://carlopesc-source.github.io/open-business-data/dental/md.html
+- https://carlopesc-source.github.io/open-business-data/dental/az.html
+- https://carlopesc-source.github.io/open-business-data/dental/pa.html
+- https://carlopesc-source.github.io/open-business-data/dental/or.html
+- https://carlopesc-source.github.io/open-business-data/dental/ny.html
+- https://carlopesc-source.github.io/open-business-data/dental/ga.html
+- https://carlopesc-source.github.io/open-business-data/dental/fl.html
+- https://carlopesc-source.github.io/open-business-data/dental/wi.html
+- https://carlopesc-source.github.io/open-business-data/dental/wa.html
+- https://carlopesc-source.github.io/open-business-data/dental/tn.html
+- https://carlopesc-source.github.io/open-business-data/dental/ok.html
+- https://carlopesc-source.github.io/open-business-data/dental/nv.html
+- https://carlopesc-source.github.io/open-business-data/dental/nj.html
+- https://carlopesc-source.github.io/open-business-data/dental/ma.html
+- https://carlopesc-source.github.io/open-business-data/dental/il.html
+- https://carlopesc-source.github.io/open-business-data/dental/ca.html
+- https://carlopesc-source.github.io/open-business-data/dental/va.html
+- https://carlopesc-source.github.io/open-business-data/dental/nc.html
+- https://carlopesc-source.github.io/open-business-data/dental/ia.html
+- https://carlopesc-source.github.io/open-business-data/dental/ar.html
+- https://carlopesc-source.github.io/open-business-data/dental/sc.html
+- https://carlopesc-source.github.io/open-business-data/dental/co.html
+- https://carlopesc-source.github.io/open-business-data/dental/al.html
+- https://carlopesc-source.github.io/open-business-data/dental/oh.html
+- https://carlopesc-source.github.io/open-business-data/dental/ne.html
+- https://carlopesc-source.github.io/open-business-data/dental/me.html
+- https://carlopesc-source.github.io/open-business-data/dental/in.html
+- https://carlopesc-source.github.io/open-business-data/dental/id.html
+- https://carlopesc-source.github.io/open-business-data/dental/dc.html
+- https://carlopesc-source.github.io/open-business-data/dental/ut.html
+- https://carlopesc-source.github.io/open-business-data/dental/ct.html
+- https://carlopesc-source.github.io/open-business-data/dental/ms.html
+- https://carlopesc-source.github.io/open-business-data/dental/la.html
+- https://carlopesc-source.github.io/open-business-data/dental/mo.html
+- https://carlopesc-source.github.io/open-business-data/dental/vt.html
+- https://carlopesc-source.github.io/open-business-data/es/casas-rurales.html
+- https://carlopesc-source.github.io/open-business-data/tools.html
+- https://carlopesc-source.github.io/open-business-data/index.html
