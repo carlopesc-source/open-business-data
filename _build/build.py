@@ -198,7 +198,7 @@ def build_tools() -> None:
                         f"{esc(a['title'])}. {esc(a['description'])}</li>" for a in mine)
         parts.append(f"<h2>{esc(q)}</h2><ul>{items}</ul>")
     for a in actors_list:
-        page(f"tools/{a['name']}.html", actors.question(a), a["description"][:200], actors.body(a, STORE))
+        page(f"tools/{a['name']}.html", actors.question(a), a["description"][:200], actors.body(a, STORE), ld=actors.faq_ld(a))
     title = f"Public-registry data tools: {len(actors_list)} scrapers for licenses, new businesses, Airbnb and prices"
     lead = (f"<p class='lead'>We maintain <strong>{len(actors_list)} data tools</strong> on the Apify Store that read official registries "
             f"and public sites: contractor licenses in 20 US states, new businesses, Airbnb hosts, property and price data.</p>")
