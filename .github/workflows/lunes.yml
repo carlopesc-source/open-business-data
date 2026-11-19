@@ -1,0 +1,36 @@
+# Cada lunes: clinicas dentales nuevas de NPPES + lista de actores, y se rehacen las paginas.
+name: lunes
+on:
+  schedule:
+    - cron: "0 18 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Bajar NPPES
+        run: python -I -X utf8 _build/bajar_nppes.py "$RUNNER_TEMP/nppes"
+      - name: Sacar clinicas nuevas (fuera del repo)
+        env:
+          MIN_DAYS: "28"
+          CLINICS_CSV: ${{ runner.temp }}/clinicas_nuevas.csv
+        run: python -I -X utf8 _build/sacar_nuevas.py "$RUNNER_TEMP"/nppes/npidata_pfile_*.csv
+      - name: Lista de actores
+        run: curl -sf -m 60 "https://api.apify.com/v2/store?username=wellbuilt_zythem&limit=100" -o _build/datos/store.json
+      - name: Rehacer paginas
+        env:
+          CLINICS_CSV: ${{ runner.temp }}/clinicas_nuevas.csv
+        run: python -I -X utf8 _build/build.py
+      - name: Subir
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "chore: actualizacion del lunes" && git push)

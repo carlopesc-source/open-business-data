@@ -1,0 +1,4083 @@
+{
+  "data": {
+    "total": 36,
+    "count": 36,
+    "offset": 0,
+    "limit": 100,
+    "desc": false,
+    "items": [
+      {
+        "title": "Airbnb Multi-Listing Hosts by City",
+        "name": "airbnb-host-portfolio",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 29,
+          "totalRuns": 194,
+          "totalUsers": 3,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 2,
+          "lastRunStartedAt": "2026-11-19T04:00:09.220Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Find the hosts running more than one Airbnb listing in a city. One row per host with portfolio size, superhost status, average rating, total reviews and median price. The listing data is public; the portfolio is not, and that is the product.",
+        "categories": [
+          "REAL_ESTATE",
+          "TRAVEL",
+          "LEAD_GENERATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/b8A2j72TDQDHSVdlz3B88qI5WZ5LsMkh2XzkeMioYas/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItWHFOWkFRb2NXalFYQVVFWHUtaEFocTNkcDM5YS0wNS1haXJibmItYW5maXRyaW9uZXMucG5n.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "host": {
+                "eventTitle": "host portfolio",
+                "eventDescription": "ne host with two or more listings, with portfolio size, ratings and prices.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.018
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "listing": {
+                "eventTitle": "Listing",
+                "eventDescription": "One Airbnb listing with the host id that ties it to its operator.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "startedAt": "2026-10-18T06:50:02.412Z",
+          "createdAt": "2026-10-18T06:50:02.903Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-10-18T07:00:14.742Z"
+        },
+        "id": "XqNZAQocWjQXAUEXu",
+        "url": "https://apify.com/wellbuilt_zythem/airbnb-host-portfolio"
+      },
+      {
+        "title": "Amazon Price History: Lowest, Highest & Is Today a Real Deal",
+        "name": "amazon-price-history",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 91,
+          "totalUsers": 5,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 3,
+          "totalUsers90Days": 3,
+          "lastRunStartedAt": "2026-11-19T06:44:31.231Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 35,
+            "TIMED-OUT": 0,
+            "TOTAL": 35
+          }
+        },
+        "description": "Amazon.com price history by ASIN, from the copies of the product page kept by the Internet Archive: price, list price, rating and Best Sellers Rank by month or week, lowest and highest price with dates, average, and today's price compared with its history.",
+        "categories": [
+          "ECOMMERCE",
+          "AUTOMATION",
+          "MARKETING"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/qc3OBARsC4tg8oJRbiPjt2GdR4JqJO4gkyVRDE2z5qM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItQkRhRGlwdHIyRVZ4R3F4V1ItSXpsZEhSS2pGNS0wMy1lbXBsZW9zLWF1c3RyYWxpYS1uei5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00006
+                  }
+                }
+              },
+              "price_history": {
+                "eventTitle": "Price history",
+                "eventDescription": "One product with its archived price history, lowest and highest price, and today’s price compared",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.006
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0045
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "startedAt": "2026-10-18T05:54:53.009Z",
+          "createdAt": "2026-10-18T05:54:53.932Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "BDaDiptr2EVxGqxWR",
+        "url": "https://apify.com/wellbuilt_zythem/amazon-price-history"
+      },
+      {
+        "title": "Australia Visa Sponsorship & Working Holiday Jobs (Seek)",
+        "name": "australia-visa-sponsorship-jobs",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 18,
+          "totalRuns": 121,
+          "totalUsers": 4,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 2,
+          "totalUsers90Days": 3,
+          "lastRunStartedAt": "2026-11-19T04:00:09.174Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 29,
+            "TIMED-OUT": 0,
+            "TOTAL": 29
+          }
+        },
+        "description": "Find Australian jobs that will sponsor a visa (482, 186, 494, DAMA) or that welcome Working Holiday makers and backpackers, including 88-day regional work. Sweeps Seek across all eight states and reads the full advert to flag sponsorship, WHV and explicit refusals.",
+        "categories": [
+          "JOBS",
+          "LEAD_GENERATION",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/G73AGm9HApjig57dARwWmeAyi-PsZiX1fhOMj_KvsLc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItNTBnRTBKcXV5VEVWb1JKcmEtaGNRM1ZjYmwwZy0wMy1lbXBsZW9zLWF1c3RyYWxpYS1uei5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "job ad",
+                "eventDescription": "One job ad classified by visa sponsorship signals.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0038
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0036
+                  }
+                }
+              },
+              "description": {
+                "eventTitle": "full job description",
+                "eventDescription": "The complete advert text, fetched through a residential proxy.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.006
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.006
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0057
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0054
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0054
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0054
+                  }
+                }
+              },
+              "employer": {
+                "eventTitle": "employer profile",
+                "eventDescription": "One company with its visa sponsorship rate and median salary.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.018
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:01:16.944Z",
+          "startedAt": "2026-10-27T07:01:16.944Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:24.631Z"
+        },
+        "id": "50gE0JquyTEVoRJra",
+        "url": "https://apify.com/wellbuilt_zythem/australia-visa-sponsorship-jobs"
+      },
+      {
+        "title": "Contractor License Verification - Bulk Lookup, 20 US States",
+        "name": "us-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 34,
+          "totalRuns": 167,
+          "totalUsers": 4,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 2,
+          "lastRunStartedAt": "2026-11-19T04:01:19.336Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 1,
+            "FAILED": 0,
+            "SUCCEEDED": 27,
+            "TIMED-OUT": 1,
+            "TOTAL": 29
+          }
+        },
+        "description": "Every licensed roofer, electrician, plumber or HVAC contractor in a state, from 20 official state boards. Phone on 13 states, email on 4, measured per state in the README. Export a whole trade or verify a list of names or licence numbers. Status, expiry, address.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/3hBa9R7H-lQ-ZLpupceiH8n4ZYFvM8ExrdPJ7oixFbA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItYVJ6STlhbVRJYWNKWXlGaDAtR1UzcWlSakpIQS0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "Licence record",
+                "eventDescription": "One contractor licence delivered: number, classification, status, expiry, business name, address, phone and email where the board publishes them. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00475
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0045
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "detail": {
+                "eventTitle": "Full California licence record",
+                "eventDescription": "One California CSLB licence read live from the board's licence page: bond company, number and amount, workers' compensation carrier, policy number and expiry, every classification, entity type and today's status. Licence numbers not in the register are delivered and not charged.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.012
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.012
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0114
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0108
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0108
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0108
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T06:59:18.654Z",
+          "startedAt": "2026-10-27T06:59:18.654Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:00:39.860Z"
+        },
+        "id": "aRzI9amTIacJYyFh0",
+        "url": "https://apify.com/wellbuilt_zythem/us-contractor-license-lookup"
+      },
+      {
+        "title": "Google Ads Transparency Scraper with Ad Text",
+        "name": "google-ads-text",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 11,
+          "totalRuns": 74,
+          "totalUsers": 3,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 2,
+          "totalUsers90Days": 2,
+          "lastRunStartedAt": "2026-11-19T07:34:34.302Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 32,
+            "TIMED-OUT": 0,
+            "TOTAL": 32
+          }
+        },
+        "description": "Every ad an advertiser, domain or keyword runs on Google, from the official Ads Transparency Center, with the ad text: headline, description, display URL and the local business address. Text ads Google only shows as an image are read too (OCR). Dates, days shown, region, images, YouTube.",
+        "categories": [
+          "SEO_TOOLS",
+          "LEAD_GENERATION",
+          "MARKETING"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/ZIhwSzJ5sMYRJhhuE-FlYkhXy5P_akpKHvTs3thNBhs/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItTzZ4MGhlS1VCZ0tPVDQ2MmctdXFoZkF4cDhLby0wMy1lbXBsZW9zLWF1c3RyYWxpYS1uei5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "Ad": {
+                "eventTitle": "Ad",
+                "eventDescription": "One ad delivered with its text, dates, region and media links. Ads filtered out cost nothing",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "startedAt": "2026-10-18T06:42:48.714Z",
+          "createdAt": "2026-10-18T06:42:49.196Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "O6x0heKUBgKOT462g",
+        "url": "https://apify.com/wellbuilt_zythem/google-ads-text"
+      },
+      {
+        "title": "Google Maps Contractor License Check",
+        "name": "google-maps-contractor-license-check",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 71,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T06:50:29.170Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Check contractors scraped from Google Maps against official state license registers (CA, AZ, WA, FL, TX and more). Each business gets license number, type, status, expiry and the register phone, matched by phone or name. Pay only for licenses found.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/Gq4as3pRRVulkIcvfmabjcAdxhTAjWOQfxJu6rahSFU/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItYUQ4ZWNDUmlDQnpzOFBnOUotMUsydElCdFNydC0wMy1lbXBsZW9zLWF1c3RyYWxpYS1uei5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "license-found": {
+                "eventTitle": "License found in the state register",
+                "eventDescription": "One Google Maps business matched to a contractor license in the official state register: license number, type, status, expiry, and the name and phone on file. Businesses with no license found or not checkable are not charged",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.007
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.006
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0055
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.005
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "startedAt": "2026-10-18T05:58:43.578Z",
+          "createdAt": "2026-10-18T05:58:43.878Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "aD8ecCRiCBzs8Pg9J",
+        "url": "https://apify.com/wellbuilt_zythem/google-maps-contractor-license-check"
+      },
+      {
+        "title": "UK Multi-Company Owners from Companies House",
+        "name": "uk-company-owners",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 66,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T09:04:35.473Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "People who control 2 or more UK companies, by postcode area: one row per owner with how many companies they control and each company's name, status, activity, incorporation date and share band. From the official Companies House registers. No phone or email: the registers do not publish them.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/6KtP15hxs1OL74y2Zm5RSNlM2qYtx-hQPnYe_l2x7EE/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItRWhkYVFIZ2EwSXZyOGxQd2UtYWZzSDBxaVpEby0wMS1hbG9qYW1pZW50b3MtZXNwYW5hLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "owner": {
+                "eventTitle": "Owner with 2+ companies",
+                "eventDescription": "One person who controls 2 or more live UK companies, with each company's name, status, activity, incorporation date and share band",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.012
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "startedAt": "2026-10-18T06:45:51.800Z",
+          "createdAt": "2026-10-18T06:45:52.276Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "EhdaQHga0Ivr8lPwe",
+        "url": "https://apify.com/wellbuilt_zythem/uk-company-owners"
+      },
+      {
+        "title": "UK Companies Hiring Now: LinkedIn Jobs + Companies House",
+        "name": "uk-hiring-companies",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 66,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T07:28:33.493Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "UK companies hiring for a role right now, one row per company: how many jobs it has open on LinkedIn, which ones, where and since when, plus its Companies House record: company number, status, registered office, incorporation date, SIC codes and current directors.",
+        "categories": [
+          "LEAD_GENERATION",
+          "JOBS",
+          "BUSINESS"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/cxn7vbmBbXAMfQpUd6MWV_fTVUazHP_34m6hsbs37H8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItV0lZSnl0TTdFRFdDRXp6aWctUXVOd2U5ck9aVi0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "company": {
+                "eventTitle": "Company found in Companies House",
+                "eventDescription": "One UK company hiring for your role, found in Companies House: open jobs, website, size, company number, status, registered office, SIC codes and current directors. Companies not found and public bodies are free",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.011
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "startedAt": "2026-10-18T06:38:29.743Z",
+          "createdAt": "2026-10-18T06:38:30.241Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "WIYJytM7EDWCEzzig",
+        "url": "https://apify.com/wellbuilt_zythem/uk-hiring-companies"
+      },
+      {
+        "title": "Amazon Price Drop Tracker: Prices, Deals & Best Sellers Rank",
+        "name": "amazon-price-drops",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 11,
+          "totalRuns": 86,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T07:22:33.418Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Track Amazon.com products by ASIN, link or search. Price, list price and discount, coupon, rating, bought in past month, Best Sellers Rank, stock and seller. Schedule it: price drops since your last run, lowest price seen, back in stock, and products new to a search.",
+        "categories": [
+          "ECOMMERCE",
+          "AUTOMATION",
+          "MARKETING"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/ttl7jGvPSJqrLLGJAMz-oWgVJWmB6O70zDiMye904Zg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItWjUwSzA0TmNjMXREcGFrZDEtT1FnUVg5YlM3Si0wMy1lbXBsZW9zLWF1c3RyYWxpYS1uei5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "product": {
+                "eventTitle": "Product",
+                "eventDescription": "One product row with price, rating, Best Sellers Rank and the signals since your last run",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "product_page": {
+                "eventTitle": "Product page opened",
+                "eventDescription": "Added when the product’s own page is opened for rank, stock, seller and brand",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "startedAt": "2026-10-18T06:35:08.855Z",
+          "createdAt": "2026-10-18T06:35:10.010Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "Z50K04Ncc1tDpakd1",
+        "url": "https://apify.com/wellbuilt_zythem/amazon-price-drops"
+      },
+      {
+        "title": "Amazon Real Deal Finder: Today's Price vs Its Price History",
+        "name": "amazon-real-deals",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 16,
+          "totalRuns": 87,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T08:56:33.950Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 27,
+            "TIMED-OUT": 1,
+            "TOTAL": 28
+          }
+        },
+        "description": "Amazon.com products by search or ASIN with today's price, the discount Amazon claims, and the real price history from the Internet Archive: lowest, highest and average over the years. A verdict per product: real deal, good price, usual price or above usual. Schedule it to catch drops.",
+        "categories": [
+          "ECOMMERCE",
+          "AUTOMATION",
+          "MARKETING"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/deJtDGsZDMNr_v5KEvxSNxiliWykgIQNx-cGyP0NJkQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItMEJMeFlYVWJtODR1bWhQc2otNTRBRlRDWWtrUi0wNy1hbWF6b24tY2hvbGxvcy5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "deal_check": {
+                "eventTitle": "Amazon Real Deal Finder: Today's Price vs Its Price History",
+                "eventDescription": "One Amazon product with today's price, the discount Amazon claims, its historic low, high and average from the Internet Archive, and the verdict: real deal, good price, usual price or above usual. Products without enough history, without a price today or over the run limit are free.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0038
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0036
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "startedAt": "2026-10-20T08:11:57.423Z",
+          "createdAt": "2026-10-20T08:11:58.742Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "0BLxYXUbm84umhPsj",
+        "url": "https://apify.com/wellbuilt_zythem/amazon-real-deals"
+      },
+      {
+        "title": "Rightmove Scraper: Price Drops & Land Registry Sold Prices",
+        "name": "rightmove-listings",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 65,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T09:06:36.798Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "UK homes for sale on Rightmove by town, postcode district or search link, with Rightmove's own 'reduced on' date, new listings and price drops since your last run, and HM Land Registry sold prices in the same postcode district (median for the same property type). Optional full details.",
+        "categories": [
+          "REAL_ESTATE",
+          "LEAD_GENERATION",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/dNNQ2DRki2ZQkZLBFbYDfD8N3_-ksX9rAqIQ1KyQDhc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3Ita1lOTWYzdXgzOHROZ0cyMWoteGRrZElGUFpsci0wOC1yaWdodG1vdmUtY2FzYXMtdWsucG5n.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "listing": {
+                "eventTitle": "Rightmove Scraper: Price Drops & Land Registry Sold Prices",
+                "eventDescription": "One Rightmove home delivered: price, Rightmove's reduced-on date, status, property type, bedrooms, address and agent, with the HM Land Registry sold-price comparison for its postcode district. Off-market rows are included.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.002375
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.00225
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.00225
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.00225
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "listing_details": {
+                "eventTitle": "Listing page opened",
+                "eventDescription": "Charged once per home whose Rightmove page was opened for the full details: description, tenure, lease, council tax, service charge and the agent's phone, when Rightmove shows them.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.002375
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.00225
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.00225
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.00225
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:03:43.267Z",
+          "startedAt": "2026-10-27T07:03:43.267Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.741Z"
+        },
+        "id": "kYNMf3ux38tNgG21j",
+        "url": "https://apify.com/wellbuilt_zythem/rightmove-listings"
+      },
+      {
+        "title": "US Company Verification (KYB) & New LLC Filings by State",
+        "name": "us-company-check",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 3,
+          "totalRuns": 65,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T07:02:35.252Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Verify US companies against the official business registers of New York, Colorado, Connecticut, Oregon, Texas and Pennsylvania: status, formation date, entity type, address, registered agent. Not found costs nothing. Or list the companies formed between two dates, with email in Connecticut",
+        "categories": [
+          "BUSINESS",
+          "LEAD_GENERATION",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/cpiOC4I_EiVYGgYCFTDbvhIEIOyQpUfb82kf35pzGGo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItN3QyRUU1aHhSTGZxeGI5NE0teUtRQWNXd0E0Qi0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "match": {
+                "eventTitle": "company verified",
+                "eventDescription": "One company record found in a state register for a name you asked to verify: standing, status, formation date, type, address, registered agent where published. Names not found are free",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00285
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0027
+                  }
+                }
+              },
+              "new_company": {
+                "eventTitle": "new company",
+                "eventDescription": "One company formed in the chosen dates, from a state register: name, type, formation date, address, registered agent, email (Connecticut) or officers (Pennsylvania) where published",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:05:34.974Z",
+          "startedAt": "2026-10-27T07:05:34.974Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.899Z"
+        },
+        "id": "7t2EE5hxRLfqxb94M",
+        "url": "https://apify.com/wellbuilt_zythem/us-company-check"
+      },
+      {
+        "title": "Airbnb Reviews Scraper by City or Listing, Translated",
+        "name": "airbnb-reviews",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 10,
+          "totalRuns": 76,
+          "totalUsers": 2,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T06:56:51.537Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 1,
+            "SUCCEEDED": 29,
+            "TIMED-OUT": 0,
+            "TOTAL": 30
+          }
+        },
+        "description": "Airbnb reviews for any listing URL, or for the top listings of any city: rating, date, text with English translation, host reply, stay length, reviewer first name and home town, plus Airbnb's topic summaries per listing. Filter by stars, date or Airbnb's review search. Feed mode: only new reviews.",
+        "categories": [
+          "REAL_ESTATE",
+          "TRAVEL",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/k0WLaSwscL_Lea9h2NsRvynBmvAA52KM1Lt399s4udM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItZGtqQ1hzUVpPczBSc1JVTHUtSlBHSG5TclFXbi0wMS1hbG9qYW1pZW50b3MtZXNwYW5hLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "review": {
+                "eventTitle": "review",
+                "eventDescription": "One Airbnb review delivered: rating, date, text, English translation, host reply, stay length, guest first name and home town. Filtered-out and already delivered reviews cost nothing",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "listing_summary": {
+                "eventTitle": "listing_summary",
+                "eventDescription": "One summary row per listing: total reviews and the topics Airbnb summarizes from them. Only when \"Include a summary row per listing\" is on",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0025
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "startedAt": "2026-10-18T06:19:19.800Z",
+          "createdAt": "2026-10-18T06:19:20.921Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-10-18T06:30:24.516Z"
+        },
+        "id": "dkjCXsQZOs0RsRULu",
+        "url": "https://apify.com/wellbuilt_zythem/airbnb-reviews"
+      },
+      {
+        "title": "Google Play Reviews Scraper with Developer Replies",
+        "name": "google-play-reviews",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 4,
+          "totalRuns": 67,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T09:14:38.762Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Google Play reviews for any app, every language in one run: rating, text, date, app version, helpful votes and the developer's reply. Filter by stars, date or keyword. Delta mode delivers only reviews new since your last run. Pay per review.",
+        "categories": [
+          "AUTOMATION",
+          "MARKETING",
+          "BUSINESS"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/n0DnR6y87Ke-1YTC4Qa4j3vK3PWiOlK2OhxJZFTxIJc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItQTB6NUo4MkFlSHpuUkhNUlMtakJwRXM0YlRvdS0xMC1yZXNlbmFzLWFuZHJvaWQucG5n.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "review": {
+                "eventTitle": "Review",
+                "eventDescription": "One review delivered: rating, text, date, app version, helpful votes and developer reply. Filtered-out and already delivered reviews cost nothing.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.0004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00038
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.00036
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.00036
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.00036
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:02:29.928Z",
+          "startedAt": "2026-10-27T07:02:29.928Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.240Z"
+        },
+        "id": "A0z5J82AeHznRHMRS",
+        "url": "https://apify.com/wellbuilt_zythem/google-play-reviews"
+      },
+      {
+        "title": "UK New Companies Feed from Companies House",
+        "name": "uk-new-companies",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 3,
+          "totalRuns": 60,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T09:10:38.976Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Companies incorporated in the UK, day by day, from the official Companies House register: number, name, type, status, incorporation date, registered office, postcode, SIC codes with descriptions and, optionally, the directors. Delta mode delivers only what is new since your last run. No API key.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/2OnbghJaOvpt8FfknucLZeVN5uWyvapYE7qZUxGctXA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItSmFTZzR3dWREMThHNTl2c0ItVnk0eE1MYkJKVC0wOS11ay1lbXByZXNhcy1udWV2YXMucG5n.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "company": {
+                "eventTitle": "UK New Companies Feed from Companies House",
+                "eventDescription": "One company delivered: number, name, type, status, incorporation date, registered office, postcode and SIC codes with descriptions. Already delivered companies cost nothing in feed mode.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0038
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0036
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "officers": {
+                "eventTitle": "Officers read",
+                "eventDescription": "Charged once per company whose directors and secretaries were read, only when \"Include directors and secretaries\" is on.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0038
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0036
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:04:47.846Z",
+          "startedAt": "2026-10-27T07:04:47.846Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.819Z"
+        },
+        "id": "JaSg4wudD18G59vsB",
+        "url": "https://apify.com/wellbuilt_zythem/uk-new-companies"
+      },
+      {
+        "title": "Airbnb New Listings & Price Drops by City",
+        "name": "airbnb-new-listings",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 9,
+          "totalRuns": 77,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T06:22:31.815Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Airbnb listings for any city with two signals other scrapers skip: which listings are new (no reviews yet, or not seen in your last run) and which dropped their price (Airbnb's own 'originally' price, plus the change since your last run). Host name and Superhost on request. Schedule it for a feed.",
+        "categories": [
+          "REAL_ESTATE",
+          "TRAVEL",
+          "LEAD_GENERATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/zV9TJln628KhGEqL0cvKSNPefFsbtp7FVcfNKoOEmJU/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItWjl0MDBtYVk0Y0tWa1ZZQVgtMzVYa0NIMVZONC0wMS1hbG9qYW1pZW50b3MtZXNwYW5hLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "listing": {
+                "eventTitle": "Listing",
+                "eventDescription": "One listing delivered with its new-listing and price-drop signals. In feed mode, unchanged listings are not delivered and cost nothing",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "startedAt": "2026-10-18T17:48:49.400Z",
+          "createdAt": "2026-10-18T17:48:50.001Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-10-18T18:00:29.763Z"
+        },
+        "id": "Z9t00maY4cKVkVYAX",
+        "url": "https://apify.com/wellbuilt_zythem/airbnb-new-listings"
+      },
+      {
+        "title": "Redfin Scraper: Homes for Sale, Price Drops & Area Comps",
+        "name": "redfin-listings",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 6,
+          "totalRuns": 66,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T07:00:38.467Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Redfin homes for sale by US city, ZIP or Redfin URL. Each home compared with recent sales in its ZIP ($/sq ft vs median, Redfin Data Center). Schedule it: new listings, price drops and homes that left the market since your last run. No proxy needed.",
+        "categories": [
+          "REAL_ESTATE",
+          "LEAD_GENERATION",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/VBJV6yHrlzmE0CT831TcJETFJBzN0k0e4nXtPcJtgww/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3IteExRSGFTUlQ5R0Fvb2JsU2YtajhNOGNvOWdhcy0wNC16aWxsb3ctdmVuZGVkb3Jlcy5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "home": {
+                "eventTitle": "home",
+                "eventDescription": "One home delivered: price, size, address, days on market, photo and its comparison with recent sales in its ZIP; or one home that left the market since your last run",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:03:29.817Z",
+          "startedAt": "2026-10-27T07:03:29.817Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.730Z"
+        },
+        "id": "xLQHaSRT9GAooblSf",
+        "url": "https://apify.com/wellbuilt_zythem/redfin-listings"
+      },
+      {
+        "title": "YouTube Outlier Finder: Videos That Beat Their Own Channel",
+        "name": "youtube-outliers",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 1,
+          "totalRuns": 87,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T06:38:32.246Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 21,
+            "TIMED-OUT": 0,
+            "TOTAL": 21
+          }
+        },
+        "description": "Find YouTube videos with many times their channel's usual views. Search by keyword, upload date, length and country; get outlier score, channel median views, views per subscriber and views per day. No API key. Pay per outlier.",
+        "categories": [
+          "SOCIAL_MEDIA",
+          "MARKETING",
+          "AUTOMATION"
+        ],
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventPriceUsd": 0.00005
+              },
+              "outlier_video": {
+                "eventTitle": "Outlier video",
+                "eventDescription": "One video that beat its channel’s usual views and passed every filter. Videos searched and rejected are free.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.006
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00475
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0045
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "startedAt": "2026-10-28T06:04:15.597Z",
+          "createdAt": "2026-10-28T06:04:16.514Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "6LDBILUGcJPKasx3d",
+        "url": "https://apify.com/wellbuilt_zythem/youtube-outliers"
+      },
+      {
+        "title": "Kalshi Trade History & Whale Trades API",
+        "name": "kalshi-trades-api",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 3,
+          "totalRuns": 43,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T06:34:34.594Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 18,
+            "TIMED-OUT": 0,
+            "TOTAL": 18
+          }
+        },
+        "description": "Every Kalshi trade with the market question attached: side, price, contracts and dollars paid. Filter whale trades by size, series (Fed, CPI, weather, sports) or category. Also markets with odds, volume and open interest, order books and price history. Official API, no key.",
+        "categories": [
+          "DEVELOPER_TOOLS",
+          "AI",
+          "AGENTS"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/GDueM8dEeV_G_dqs4mbcGKDwoi1Lv_6T7a12299q1T0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItamdLNEM0T3d0bDNycnBZdlktYWhPeFFBYkloYy0xMC1yZXNlbmFzLWFuZHJvaWQucG5n.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventPriceUsd": 0.00005
+              },
+              "trade": {
+                "eventTitle": "Trade",
+                "eventDescription": "One Kalshi trade with its market question, side, price, contracts and dollars paid.",
+                "isOneTimeEvent": false,
+                "eventPriceUsd": 0.001,
+                "isPrimaryEvent": true
+              },
+              "market": {
+                "eventTitle": "Market",
+                "eventDescription": "One Kalshi market with odds, volume and open interest.",
+                "isOneTimeEvent": false,
+                "eventPriceUsd": 0.001
+              },
+              "orderbook_snapshot": {
+                "eventTitle": "Order book",
+                "eventDescription": "One order book snapshot of a Kalshi market, bids and asks.",
+                "isOneTimeEvent": false,
+                "eventPriceUsd": 0.002
+              },
+              "price_point": {
+                "eventTitle": "Price point",
+                "eventDescription": "One point of a Kalshi market's price history.",
+                "isOneTimeEvent": false,
+                "eventPriceUsd": 0.0002
+              }
+            }
+          },
+          "startedAt": "2026-10-31T06:02:48.068Z",
+          "createdAt": "2026-10-31T06:02:49.031Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "jgK4C4Owtl3rrpYvY",
+        "url": "https://apify.com/wellbuilt_zythem/kalshi-trades-api"
+      },
+      {
+        "title": "Florida Contractor License Lookup & Verification",
+        "name": "florida-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 8,
+          "totalRuns": 89,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T06:16:30.339Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Every DBPR-licensed contractor in Florida. Export a whole trade (roofing, electrical, plumbing, HVAC, pools) or verify a list of names or licence numbers. Status, expiry date, address, county. No phone: Florida does not publish it. Official register, measured coverage",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/wQK1YSwb4k8PzBn_W_Fd7bMbTQZ-Gr4E1i6sIilETrk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItOWNwbWprQUhsZzRXak1PeTAteTdFZnlQdmZJTC0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "Licence record",
+                "eventDescription": "One Florida DBPR contractor licence delivered: licence number, trade, status, expiry date, business name, address and county. Florida publishes no phone. Filtered-out rows cost nothing",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00475
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0045
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:02:01.200Z",
+          "startedAt": "2026-10-27T07:02:01.200Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:24.720Z"
+        },
+        "id": "9cpmjkAHlg4WjMOy0",
+        "url": "https://apify.com/wellbuilt_zythem/florida-contractor-license-lookup"
+      },
+      {
+        "title": "US Active Contractors - Permits + License, Phone",
+        "name": "us-active-contractors",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 16,
+          "totalRuns": 104,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T07:12:35.232Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Contractors who pulled a building permit in the last 90 days in Seattle, Orlando, Cincinnati or Marin County, matched to their state licence: status, expiry date, phone. One row per contractor with permit count, total job value and lead score. 74 % matched in Seattle, measured.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/5Vyn1ggj33EfNwM1Nxi63JZPSD-XpkDO24No8StpI5o/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItcmJTeW5YbGNjNTdZYmU3NzUtdlFFQ0tvZjlwZS0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "active_contractor": {
+                "eventTitle": "Active contractor",
+                "eventDescription": "One contractor with a permit in the last 90 days, matched to a state licence, with phone where the board publishes it. Unmatched permits cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.018
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:05:04.363Z",
+          "startedAt": "2026-10-27T07:05:04.363Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.847Z"
+        },
+        "id": "rbSynXlcc57Ybe775",
+        "url": "https://apify.com/wellbuilt_zythem/us-active-contractors"
+      },
+      {
+        "title": "US Building Permits - Contractor Leads with Delta Mode",
+        "name": "us-building-permits",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 26,
+          "totalRuns": 121,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:01:18.011Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Call the contractor the week the permit is issued. Permits from 17 US city registers via official open-data APIs: contractor, license and phone, job value, GPS, trade and a lead score. New York and Mesa: is the license still active? Delta mode charges only new permits.",
+        "categories": [
+          "LEAD_GENERATION",
+          "REAL_ESTATE",
+          "BUSINESS"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/IQ-2BxYDQ3qfuffeDtsrqJU9ot3BAmvNu619vwlYPdk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItcklsYkR0Z3ZkUDBiMld4aXgtUjFHblBCbmU5ZC0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "Permit record",
+                "eventDescription": "One building permit delivered with contractor, trade, job value, address and lead score. Filtered-out permits cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00475
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0045
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "enrich_contractor": {
+                "eventTitle": "Contractor enriched from Google Maps",
+                "eventDescription": "One contractor found on Google Maps and name-verified: phone, website, rating, review count, category and address. Charged once per contractor, never per permit; searches that find nothing or the wrong company cost nothing.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.02
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.018
+                  }
+                }
+              },
+              "email_found": {
+                "eventTitle": "Contractor email found on their website",
+                "eventDescription": "One contractor email read from the company's own website, with the page it was found on. Charged once per email found; a website with no address costs nothing.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:05:20.873Z",
+          "startedAt": "2026-10-27T07:05:20.873Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.879Z"
+        },
+        "id": "rIlbDtgvdP0b2Wxix",
+        "url": "https://apify.com/wellbuilt_zythem/us-building-permits"
+      },
+      {
+        "title": "Zillow Motivated Seller Leads & Real ZIP Sales Comps",
+        "name": "zillow-motivated-sellers",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 17,
+          "totalRuns": 109,
+          "totalUsers": 2,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 0,
+          "totalUsers90Days": 2,
+          "lastRunStartedAt": "2026-11-19T04:01:35.163Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "US homes for sale whose owners look ready to deal, each priced against what homes in its ZIP code actually sold for (Redfin Data Center). Price cuts with amount and date, days on market vs the ZIP, under assessed value, by owner, pre-foreclosure. A 0-100 motivation score with its reasons.",
+        "categories": [
+          "REAL_ESTATE",
+          "LEAD_GENERATION",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/KGMYy0-n5XB8GF_w_foM77-2RY8PGeiq-d8SgH2ebek/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItaHpVc01hN1pyS3oyMWtkTUEtWmJuWWZySTRZSy0wNC16aWxsb3ctdmVuZGVkb3Jlcy5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "Motivated seller lead",
+                "eventDescription": "One scored lead delivered to your dataset. Filtered-out listings are free.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "permit_check": {
+                "eventTitle": "Permit history checked",
+                "eventDescription": "One home looked up in its city's official building permit register (last 5 years): permit count, last permit, deferred-maintenance and recently-renovated flags. Charged per home checked in a covered city; homes outside the 12 covered cities cost nothing.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00475
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "createdAt": "2026-10-27T07:06:26.804Z",
+          "startedAt": "2026-10-27T07:06:26.804Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.971Z"
+        },
+        "id": "hzUsMa7ZrKz21kdMA",
+        "url": "https://apify.com/wellbuilt_zythem/zillow-motivated-sellers"
+      },
+      {
+        "title": "UK Food Business Leads - New Openings & Hygiene Fails",
+        "name": "uk-food-business-leads",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 10,
+          "totalRuns": 105,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:01:07.954Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Find UK food businesses at the moment they need you: the ones that just registered and are awaiting their first inspection, and the ones that just failed a hygiene inspection. Swept from all 363 local authority registers via the official Food Standards Agency API.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/lgsPULVPUwzU9ttVieVHkat6oh9sb-XnEpv9sDYKSfo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItNHRiZkUzOThDWGtEYmo0RnAtcndEZkM2OUVXTy0wMi1ob3N0ZWxlcmlhLXVrLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "food business record",
+                "eventDescription": "One food business from the official FSA hygiene register, with rating and region.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0009
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:04:26.488Z",
+          "startedAt": "2026-10-27T07:04:26.488Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.798Z"
+        },
+        "id": "4tbfE398CXkDbj4Fp",
+        "url": "https://apify.com/wellbuilt_zythem/uk-food-business-leads"
+      },
+      {
+        "title": "Spain Rural Accommodation Registry - Phone, Email, Licence",
+        "name": "spain-rural-accommodation-registry",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 12,
+          "totalRuns": 103,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:00:55.361Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "17,000+ officially registered rural houses, agroturismos, rural hotels and tourist accommodations in Spain, read from the regional government registries and unified into one clean dataset with phone, email, website, GPS and registry number. Filter for the ones with no website.",
+        "categories": [
+          "TRAVEL",
+          "REAL_ESTATE",
+          "LEAD_GENERATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/f6KdCqwDsF1vKVLOuNdT6R2erZeS4EhNDhhZau_8FtE/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItT3N1TERhRm5HSGlNb0N6dGQtZVdkWVpBMFlNWS0wMS1hbG9qYW1pZW50b3MtZXNwYW5hLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "reasonForChange": "The Actor had been free while the pricing was being set up. It now charges per delivered accommodation record, at a rate that keeps the full Spanish register (about 17,000 rows) at a few dollars. Filtered-out rows and failed runs are not charged.",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000047
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "Accommodation record",
+                "eventDescription": "One officially registered rural house, agroturismo, rural hotel or tourist accommodation in Spain delivered: registry number, name, type, address, municipality, province, GPS, phone, email and website where the regional register publishes them. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00285
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0027
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "startedAt": "2026-10-18T18:12:12.085Z",
+          "createdAt": "2026-10-18T18:12:12.694Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-10-18T18:30:31.594Z"
+        },
+        "id": "OsuLDaFnGHiMoCztd",
+        "url": "https://apify.com/wellbuilt_zythem/spain-rural-accommodation-registry"
+      },
+      {
+        "title": "US Storm Damage Roofing Leads - NOAA Hail + Permits",
+        "name": "us-storm-roofing-leads",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 10,
+          "totalRuns": 86,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:01:25.323Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Hail and damaging-wind reports from NOAA around 12 US cities, and the roofing permits pulled in the weeks after: which neighbourhoods are replacing roofs right now, how many more than before the storm, and which contractors are doing the work. Official NOAA storm reports and city permit registers.",
+        "categories": [
+          "LEAD_GENERATION",
+          "REAL_ESTATE",
+          "BUSINESS"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/--aggBoL64x4Y3DVMj7ytXH2n2B4Yon70f9ypiGGSfQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItRk5GZnAydllOaVJWVTdnTU8tWm1sMTVXRW96Qy0wNC16aWxsb3ctdmVuZGVkb3Jlcy5wbmc.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "Roofing permit after the storm",
+                "eventDescription": "One roofing permit issued since the first storm, with the storm that explains it, days after, distance, and the contractor's permit count since the storm.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              },
+              "storm": {
+                "eventTitle": "storm report",
+                "eventDescription": "One NOAA hail or wind report within the radius of the city: size or speed, location, county, distance to the city centre, and the spotter's note.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0019
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0018
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:06:11.867Z",
+          "startedAt": "2026-10-27T07:06:11.867Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.945Z"
+        },
+        "id": "FNFfp2vYNiRVU7gMO",
+        "url": "https://apify.com/wellbuilt_zythem/us-storm-roofing-leads"
+      },
+      {
+        "title": "Oregon Contractor License Lookup & Verification",
+        "name": "oregon-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 6,
+          "totalRuns": 82,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:00:50.430Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 27,
+            "TIMED-OUT": 0,
+            "TOTAL": 27
+          }
+        },
+        "description": "Every active contractor licensed by the Oregon Construction Contractors Board (CCB), with phone, street address, county and bond on every row, measured. Export general and specialty construction or lead-paint renovation, or verify a list of names or licence numbers. Official register.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/xsu14MCoraBnfpDOPAIvbP4ulH6iCMJ1h6mTQHv-0Pg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItUGVCMjBpUkEySWFhN0JZQkUtekI4SVprUFVmWi0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Oregon CCB contractor licence delivered: licence number, status, expiry date, business name, street address, county, phone and bond. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:03:15.939Z",
+          "startedAt": "2026-10-27T07:03:15.939Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.693Z"
+        },
+        "id": "PeB20iRA2Iaa7BYBE",
+        "url": "https://apify.com/wellbuilt_zythem/oregon-contractor-license-lookup"
+      },
+      {
+        "title": "Oklahoma Contractor License Lookup & Verification",
+        "name": "oklahoma-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 84,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:00:39.844Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 27,
+            "TIMED-OUT": 0,
+            "TOTAL": 27
+          }
+        },
+        "description": "Every roofing contractor licensed by the Oklahoma Construction Industries Board, with phone and street address on 100 % of rows, measured. Export the whole register or verify a list of names or licence numbers. Status, expiry date, address, phone. Official register.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/afLgKCXfqml9djOpxKekGqjH5OuRwtc1pjrH8H5RI8Q/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItVnBVQ3pzRW1pTGlVQm1PV2MtZERXeUIwOXp5Zi0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "Licence record",
+                "eventDescription": "One Oklahoma CIB contractor licence delivered: licence number, status, expiry date, business name, street address and phone. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:03:01.065Z",
+          "startedAt": "2026-10-27T07:03:01.065Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.684Z"
+        },
+        "id": "VpUCzsEmiLiUBmOWc",
+        "url": "https://apify.com/wellbuilt_zythem/oklahoma-contractor-license-lookup"
+      },
+      {
+        "title": "US New Business Openings with Phone",
+        "name": "us-new-business-openings",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 82,
+          "totalUsers": 2,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 0,
+          "totalUsers90Days": 0,
+          "lastRunStartedAt": "2026-11-19T04:01:22.627Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Businesses that just opened in 17 US cities and counties, from official business licence and tax receipt open data: name, owner, activity, address, start date, and the phone the register publishes (88-100 % of rows in 14 registers, measured). Delta mode delivers only what is new since your last run.",
+        "categories": [
+          "BUSINESS",
+          "LEAD_GENERATION",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/iJBfacqDO7QZsODJOJyYEe0eG-l4WW-YodysDZMZpYg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItMGMyRUZXZmZ4UzZxS09uSE4tbVMwVXp4WWFBZC1fY29udGFjdG81LnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "New business record",
+                "eventDescription": "One newly opened business delivered from an official licence or business tax register: name, owner, activity, address, start date, and phone or email where the register publishes them. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:05:56.504Z",
+          "startedAt": "2026-10-27T07:05:56.504Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.929Z"
+        },
+        "id": "0c2EFWffxS6qKOnHN",
+        "url": "https://apify.com/wellbuilt_zythem/us-new-business-openings"
+      },
+      {
+        "title": "Texas Contractor License Lookup & Verification",
+        "name": "texas-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 82,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:01:01.769Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Every contractor licensed by the Texas TDLR and the Texas State Board of Plumbing Examiners: electrical (phone on nearly every row), HVAC, plumbing (phone on 51 %), sign, appliance, elevator, water well, mold. Export a whole trade or verify a list of names or licence numbers. Official register.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/utBsPW5rUOrpjr0yj7OwhaTGHqm9B___osmQeQTs4oQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItRTY1TGtQb21yT1diZFc1YlMtajd0TndvTjNaTC0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:04:05.031Z",
+          "startedAt": "2026-10-27T07:04:05.031Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.770Z"
+        },
+        "id": "E65LkPomrOWbdW5bS",
+        "url": "https://apify.com/wellbuilt_zythem/texas-contractor-license-lookup"
+      },
+      {
+        "title": "Nevada Contractor License Lookup & Verification",
+        "name": "nevada-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 83,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:00:40.028Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Every active contractor licensed by the Nevada State Contractors Board (NSCB), with phone on 99 % of rows, measured. Export a whole classification (general building, roofing, electrical, plumbing and heating, HVAC) or verify a list of names or licence numbers. Official register",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/cOk4G1zOpeXD5rnqVH8P9KsKY118ORtqbDER9YS2ru4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItRWM0d1Azd1JZMm5kdzBxaHItUTlrUmNkZjM4Uy0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Nevada NSCB contractor licence delivered: licence number, classification, status, expiry date, business name, address and phone. Filtered-out rows cost nothing",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:02:44.034Z",
+          "startedAt": "2026-10-27T07:02:44.034Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:25.619Z"
+        },
+        "id": "Ec4wP3wRY2ndw0qhr",
+        "url": "https://apify.com/wellbuilt_zythem/nevada-contractor-license-lookup"
+      },
+      {
+        "title": "Alabama Contractor License Lookup & Verification",
+        "name": "alabama-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 7,
+          "totalRuns": 87,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:00:09.345Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
+            "TOTAL": 28
+          }
+        },
+        "description": "Every contractor licensed by the Alabama Licensing Board for General Contractors, with phone on 99.9 % of rows, measured. Export a whole trade (building, roofing, electrical, HVAC, plumbing) or verify a list of names or licence numbers. Status, expiry date, address, phone. Official register",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/rZoaPeCyBMTxJsqRIcZYSjaBVAoViQW1iEyJ7DvJ10o/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItSk5PdjdwNGNkWGpiaWVFQ0UtUkJtUnBnSFBVdS0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "Licence record",
+                "eventDescription": "One Alabama contractor licence delivered: licence number, trade, status, expiry date, business name, address and phone. Filtered-out rows cost nothing",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:00:32.505Z",
+          "startedAt": "2026-10-27T07:00:32.505Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:24.522Z"
+        },
+        "id": "JNOv7p4cdXjbieECE",
+        "url": "https://apify.com/wellbuilt_zythem/alabama-contractor-license-lookup"
+      },
+      {
+        "title": "California Contractor License Lookup & Verification",
+        "name": "california-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 12,
+          "totalRuns": 98,
+          "totalUsers": 1,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 0,
+          "totalUsers90Days": 0,
+          "lastRunStartedAt": "2026-11-19T04:00:20.826Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 27,
+            "TIMED-OUT": 0,
+            "TOTAL": 27
+          }
+        },
+        "description": "Every CSLB-licensed contractor in California with phone on 99.8 % of rows, measured. Export a whole classification (roofing, electrical, plumbing, HVAC, solar) or verify a list of names or licence numbers. Status, expiry date, bond, address. Official register.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/98Rn8swbab9XgaQBXipGPRJCchtf7hfRjlJGUsHVkBo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItVUpwQTlkQXdmclZEYlRFanUtclBiajgwYTRVay0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "Licence record",
+                "eventDescription": "One California CSLB contractor licence delivered: licence number, classification, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00855
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0081
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0081
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0081
+                  }
+                }
+              },
+              "detail": {
+                "eventTitle": "Full California licence record",
+                "eventDescription": "One California CSLB licence read live from the board's licence page: bond company, number and amount, workers' compensation carrier, policy number and expiry, every classification, entity type and today's status. Licence numbers not in the register are delivered and not charged.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.012
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.012
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0114
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0108
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0108
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0108
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:01:31.227Z",
+          "startedAt": "2026-10-27T07:01:31.227Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:24.669Z"
+        },
+        "id": "UJpA9dAwfrVDbTEju",
+        "url": "https://apify.com/wellbuilt_zythem/california-contractor-license-lookup"
+      },
+      {
+        "title": "Arizona Contractor License Lookup & Verification",
+        "name": "arizona-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 9,
+          "totalRuns": 290,
+          "totalUsers": 1,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "lastRunStartedAt": "2026-11-19T06:22:31.786Z",
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 177,
+            "TIMED-OUT": 0,
+            "TOTAL": 177
+          }
+        },
+        "description": "Every AZ ROC-licensed contractor in Arizona, refreshed from the board's daily file. Export a whole classification (roofing, electrical, plumbing, HVAC, pools) or verify a list of names or licence numbers. Status, expiry date, address. No phone: the ROC does not publish it. Measured coverage",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/MHgRdgRbmtJsaFGTDamFYxpaf9qTPuCtDg-p4wvLs6c/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItempaUkdUaWdwemRPM2dmcEctR3V2ZHc5UEhCSy0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": false,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "pricingModel": "FREE",
+          "createdAt": "2026-10-18T18:18:51.950Z",
+          "startedAt": "2026-11-01T18:18:51.934Z",
+          "apifyMarginPercentage": 0,
+          "notifiedAboutFutureChangeAt": "2026-10-18T18:19:12.111Z",
+          "notifiedAboutChangeAt": "2026-11-01T18:30:24.965Z"
+        },
+        "id": "zjZRGTigpzdO3gfpG",
+        "url": "https://apify.com/wellbuilt_zythem/arizona-contractor-license-lookup"
+      },
+      {
+        "title": "Connecticut Contractor License Lookup & Verification",
+        "name": "connecticut-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 6,
+          "totalRuns": 84,
+          "totalUsers": 1,
+          "totalUsers7Days": 0,
+          "totalUsers30Days": 0,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T04:00:21.342Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 27,
+            "TIMED-OUT": 0,
+            "TOTAL": 27
+          }
+        },
+        "description": "Every contractor licensed by the Connecticut Department of Consumer Protection: home improvement, electrical, plumbing, HVAC, roofing. Export a whole trade or verify a list of names or licence numbers. Status, expiry date, address. No phone or email: the DCP does not publish them.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS",
+          "AUTOMATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/D0bRPCT88fKHEgH6eRwbwmHPyfCNr4oyJkrSLQaxWsg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItWlpNYmJqRzVXOVJmSTBWS0UtMmhiMTU5YWRoaS0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Connecticut DCP contractor licence delivered: licence number, trade, status, expiry date, business name and address. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00475
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0045
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              }
+            }
+          },
+          "apifyMarginPercentage": 0.2,
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-10-27T07:01:46.833Z",
+          "startedAt": "2026-10-27T07:01:46.833Z",
+          "notifiedAboutChangeAt": "2026-10-27T07:30:24.687Z"
+        },
+        "id": "ZZMbbjG5W9RfI0VKE",
+        "url": "https://apify.com/wellbuilt_zythem/connecticut-contractor-license-lookup"
+      },
+      {
+        "title": "Airbnb License Check, US & Canada Short-Term Rental Licenses",
+        "name": "airbnb-license-check",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 11,
+          "totalRuns": 83,
+          "totalUsers": 1,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-19T06:50:28.888Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 29,
+            "TIMED-OUT": 0,
+            "TOTAL": 29
+          }
+        },
+        "description": "Check Airbnb listings against the official short-term rental register: active, expired, unknown or no license shown (Austin, Denver, Seattle, Toronto, Vancouver, Quebec). Plus the STR registers of 10 US cities and 3 Canadian ones: status, expiry, address, holder, phone and email where published",
+        "categories": [
+          "REAL_ESTATE",
+          "TRAVEL",
+          "LEAD_GENERATION"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/gK2XItWI0_ZbYraJOjVaqvYTHLCqmmDWgYSHZN3aSQ0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItNkdiVzhoWm5tMnExSllxMFktY0FVbjZrWmZaai0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "isPriceChangeNotificationSuppressed": false,
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "license": {
+                "eventTitle": "license",
+                "eventDescription": "One short-term rental license from a city or provincial register: number, status, expiry, address, holder and the phone and email the register publishes. Filtered-out rows cost nothing",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00285
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0027
+                  }
+                },
+                "isPrimaryEvent": true
+              },
+              "listing_check": {
+                "eventTitle": "Airbnb listing checked",
+                "eventDescription": "One Airbnb listing checked against the register: license shown, result (active, expired, not in the register, none shown) and the register's data when matched",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0038
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0036
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000049
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000048
+                  }
+                }
+              }
+            }
+          },
+          "startedAt": "2026-10-18T14:40:02.851Z",
+          "createdAt": "2026-10-18T14:40:03.084Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-10-18T15:00:28.140Z"
+        },
+        "id": "6GbW8hZnm2q1JYq0Y",
+        "url": "https://apify.com/wellbuilt_zythem/airbnb-license-check"
+      }
+    ]
+  }
+}
