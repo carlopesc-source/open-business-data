@@ -34,3 +34,8 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add -A
           git diff --cached --quiet || (git commit -m "chore: actualizacion del lunes" && git push)
+      - name: Avisar a Bing (IndexNow)
+        run: |
+          K=$(ls *.txt | grep -E '^[0-9a-f]{32}\.txt$' | head -1 | cut -d. -f1)
+          python -c "import json,re;u=re.findall(r'<loc>(.*?)</loc>',open('sitemap.xml').read());print(json.dumps({'host':'carlopesc-source.github.io','key':'$K','keyLocation':'https://carlopesc-source.github.io/open-business-data/$K.txt','urlList':u}))" > /tmp/in.json
+          curl -s -o /dev/null -w "indexnow %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H "Content-Type: application/json; charset=utf-8" --data @/tmp/in.json
