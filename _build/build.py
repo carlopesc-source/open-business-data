@@ -18,6 +18,7 @@ ROOT = Path(__file__).parent
 # Con python -I (como en GitHub Actions) la carpeta del script no esta en sys.path: se anade para importar actors.py.
 sys.path.insert(0, str(ROOT))
 import actors  # noqa: E402
+import niches  # noqa: E402
 SITE = ROOT.parent
 DATA = ROOT / "datos"
 # Las clinicas con telefono y dueno NO se suben al repo publico: se generan en la maquina y se pasan por ruta.
@@ -211,6 +212,9 @@ def build_index() -> None:
             f"for people who sell to new businesses.</p><ul>"
             f"<li><a href='{BASE}/dental/'>How many new dental practices opened in the US?</a> By state, from the NPI registry</li>"
             f"<li><a href='{BASE}/es/casas-rurales.html'>¿Cuántas casas rurales hay en España y cuántas tienen web?</a></li>"
+            f"<li><a href='{BASE}/niches/texas-new-liquor-licenses.html'>How many new liquor licenses are issued in Texas each month?</a></li>"
+            f"<li><a href='{BASE}/niches/texas-cosmetology-licenses.html'>How many licensed cosmetologists and salons are there in Texas?</a></li>"
+            f"<li><a href='{BASE}/es/viviendas-vacacionales-canarias.html'>¿Cuántas viviendas vacacionales hay en Canarias?</a></li>"
             f"<li><a href='{BASE}/tools.html'>All our data tools</a></li></ul>")
     page("index.html", title, "Weekly data from public registries: new US dental practices, Spanish rural accommodation, licenses.", body)
 
@@ -229,6 +233,7 @@ def main() -> None:
     build_dental()
     build_rural()
     build_tools()
+    print('nichos:', niches.build_niches(page, BASE))
     build_index()
     build_meta()
     print(f"{len(PAGES)} paginas en {SITE}")
