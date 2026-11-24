@@ -1,7 +1,7 @@
 {
   "data": {
-    "total": 36,
-    "count": 36,
+    "total": 50,
+    "count": 50,
     "offset": 0,
     "limit": 100,
     "desc": false,
@@ -11,13 +11,13 @@
         "name": "airbnb-host-portfolio",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 29,
-          "totalRuns": 194,
+          "totalBuilds": 31,
+          "totalRuns": 203,
           "totalUsers": 3,
           "totalUsers7Days": 0,
-          "totalUsers30Days": 1,
+          "totalUsers30Days": 0,
           "totalUsers90Days": 2,
-          "lastRunStartedAt": "2026-11-19T04:00:09.220Z",
+          "lastRunStartedAt": "2026-11-23T04:00:12.468Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -45,9 +45,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "host": {
@@ -62,16 +60,16 @@
                     "tieredEventPriceUsd": 0.02
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.019
+                    "tieredEventPriceUsd": 0.018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   }
                 },
                 "isPrimaryEvent": true
@@ -88,16 +86,16 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 }
               },
@@ -128,10 +126,11 @@
               }
             }
           },
-          "startedAt": "2026-10-18T06:50:02.412Z",
-          "createdAt": "2026-10-18T06:50:02.903Z",
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:12:56.189Z",
+          "createdAt": "2026-11-21T10:13:03.807Z",
           "apifyMarginPercentage": 0.2,
-          "notifiedAboutChangeAt": "2026-10-18T07:00:14.742Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.866Z"
         },
         "id": "XqNZAQocWjQXAUEXu",
         "url": "https://apify.com/wellbuilt_zythem/airbnb-host-portfolio"
@@ -141,13 +140,13 @@
         "name": "amazon-price-history",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 91,
+          "totalBuilds": 9,
+          "totalRuns": 99,
           "totalUsers": 5,
           "totalUsers7Days": 0,
           "totalUsers30Days": 3,
           "totalUsers90Days": 3,
-          "lastRunStartedAt": "2026-11-19T06:44:31.231Z",
+          "lastRunStartedAt": "2026-11-23T06:50:31.333Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -175,9 +174,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -217,25 +214,27 @@
                     "tieredEventPriceUsd": 0.005
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0047
+                    "tieredEventPriceUsd": 0.0045
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
-          "startedAt": "2026-10-18T05:54:53.009Z",
-          "createdAt": "2026-10-18T05:54:53.932Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:13:13.650Z",
+          "createdAt": "2026-11-21T10:13:21.586Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.888Z"
         },
         "id": "BDaDiptr2EVxGqxWR",
         "url": "https://apify.com/wellbuilt_zythem/amazon-price-history"
@@ -245,13 +244,13 @@
         "name": "australia-visa-sponsorship-jobs",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 18,
-          "totalRuns": 121,
+          "totalBuilds": 20,
+          "totalRuns": 129,
           "totalUsers": 4,
           "totalUsers7Days": 0,
-          "totalUsers30Days": 2,
+          "totalUsers30Days": 1,
           "totalUsers90Days": 3,
-          "lastRunStartedAt": "2026-11-19T04:00:09.174Z",
+          "lastRunStartedAt": "2026-11-23T04:00:31.239Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -279,9 +278,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -297,16 +294,16 @@
                     "tieredEventPriceUsd": 0.004
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0038
+                    "tieredEventPriceUsd": 0.0036
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   }
                 }
               },
@@ -322,16 +319,16 @@
                     "tieredEventPriceUsd": 0.006
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0057
+                    "tieredEventPriceUsd": 0.0054
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0054
+                    "tieredEventPriceUsd": 0.0048
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0054
+                    "tieredEventPriceUsd": 0.0048
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0054
+                    "tieredEventPriceUsd": 0.0048
                   }
                 }
               },
@@ -347,16 +344,16 @@
                     "tieredEventPriceUsd": 0.02
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.019
+                    "tieredEventPriceUsd": 0.018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   }
                 }
               },
@@ -387,11 +384,11 @@
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:13:31.421Z",
+          "createdAt": "2026-11-21T10:13:39.476Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:01:16.944Z",
-          "startedAt": "2026-10-27T07:01:16.944Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:24.631Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.910Z"
         },
         "id": "50gE0JquyTEVoRJra",
         "url": "https://apify.com/wellbuilt_zythem/australia-visa-sponsorship-jobs"
@@ -401,13 +398,13 @@
         "name": "us-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 34,
-          "totalRuns": 167,
+          "totalBuilds": 36,
+          "totalRuns": 175,
           "totalUsers": 4,
           "totalUsers7Days": 0,
-          "totalUsers30Days": 1,
+          "totalUsers30Days": 0,
           "totalUsers90Days": 2,
-          "lastRunStartedAt": "2026-11-19T04:01:19.336Z",
+          "lastRunStartedAt": "2026-11-23T04:03:02.204Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -415,8 +412,8 @@
             "ABORTED": 1,
             "FAILED": 0,
             "SUCCEEDED": 27,
-            "TIMED-OUT": 1,
-            "TOTAL": 29
+            "TIMED-OUT": 0,
+            "TOTAL": 28
           }
         },
         "description": "Every licensed roofer, electrician, plumber or HVAC contractor in a state, from 20 official state boards. Phone on 13 states, email on 4, measured per state in the README. Export a whole trade or verify a list of names or licence numbers. Status, expiry, address.",
@@ -435,9 +432,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -453,16 +448,16 @@
                     "tieredEventPriceUsd": 0.005
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00475
+                    "tieredEventPriceUsd": 0.0045
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   }
                 }
               },
@@ -503,26 +498,26 @@
                     "tieredEventPriceUsd": 0.012
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0114
+                    "tieredEventPriceUsd": 0.0108
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0108
+                    "tieredEventPriceUsd": 0.0096
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0108
+                    "tieredEventPriceUsd": 0.0096
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0108
+                    "tieredEventPriceUsd": 0.0096
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:13:50.544Z",
+          "createdAt": "2026-11-21T10:13:57.551Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T06:59:18.654Z",
-          "startedAt": "2026-10-27T06:59:18.654Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:00:39.860Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.929Z"
         },
         "id": "aRzI9amTIacJYyFh0",
         "url": "https://apify.com/wellbuilt_zythem/us-contractor-license-lookup"
@@ -532,22 +527,22 @@
         "name": "google-ads-text",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 11,
-          "totalRuns": 74,
+          "totalBuilds": 13,
+          "totalRuns": 82,
           "totalUsers": 3,
           "totalUsers7Days": 0,
-          "totalUsers30Days": 2,
+          "totalUsers30Days": 1,
           "totalUsers90Days": 2,
-          "lastRunStartedAt": "2026-11-19T07:34:34.302Z",
+          "lastRunStartedAt": "2026-11-23T07:40:34.535Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 32,
+            "SUCCEEDED": 29,
             "TIMED-OUT": 0,
-            "TOTAL": 32
+            "TOTAL": 29
           }
         },
         "description": "Every ad an advertiser, domain or keyword runs on Google, from the official Ads Transparency Center, with the ad text: headline, description, display URL and the local business address. Text ads Google only shows as an image are read too (OCR). Dates, days shown, region, images, YouTube.",
@@ -566,9 +561,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -608,25 +601,27 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
-          "startedAt": "2026-10-18T06:42:48.714Z",
-          "createdAt": "2026-10-18T06:42:49.196Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:14:08.627Z",
+          "createdAt": "2026-11-21T10:14:17.138Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.949Z"
         },
         "id": "O6x0heKUBgKOT462g",
         "url": "https://apify.com/wellbuilt_zythem/google-ads-text"
@@ -636,22 +631,22 @@
         "name": "google-maps-contractor-license-check",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 71,
+          "totalBuilds": 9,
+          "totalRuns": 79,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T06:50:29.170Z",
+          "lastRunStartedAt": "2026-11-23T06:54:33.833Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 28,
+            "SUCCEEDED": 29,
             "TIMED-OUT": 0,
-            "TOTAL": 28
+            "TOTAL": 29
           }
         },
         "description": "Check contractors scraped from Google Maps against official state license registers (CA, AZ, WA, FL, TX and more). Each business gets license number, type, status, expiry and the register phone, matched by phone or name. Pay only for licenses found.",
@@ -670,9 +665,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "license-found": {
@@ -687,16 +680,16 @@
                     "tieredEventPriceUsd": 0.006
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0055
+                    "tieredEventPriceUsd": 0.0054
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.005
+                    "tieredEventPriceUsd": 0.0048
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.005
+                    "tieredEventPriceUsd": 0.0048
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.005
+                    "tieredEventPriceUsd": 0.0048
                   }
                 },
                 "isPrimaryEvent": true
@@ -728,9 +721,11 @@
               }
             }
           },
-          "startedAt": "2026-10-18T05:58:43.578Z",
-          "createdAt": "2026-10-18T05:58:43.878Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:14:31.228Z",
+          "createdAt": "2026-11-21T10:14:39.380Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.969Z"
         },
         "id": "aD8ecCRiCBzs8Pg9J",
         "url": "https://apify.com/wellbuilt_zythem/google-maps-contractor-license-check"
@@ -740,13 +735,13 @@
         "name": "uk-company-owners",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 66,
+          "totalBuilds": 8,
+          "totalRuns": 74,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T09:04:35.473Z",
+          "lastRunStartedAt": "2026-11-23T09:12:29.929Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -774,9 +769,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -816,25 +809,27 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
-          "startedAt": "2026-10-18T06:45:51.800Z",
-          "createdAt": "2026-10-18T06:45:52.276Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:14:55.121Z",
+          "createdAt": "2026-11-21T10:15:03.708Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.998Z"
         },
         "id": "EhdaQHga0Ivr8lPwe",
         "url": "https://apify.com/wellbuilt_zythem/uk-company-owners"
@@ -844,13 +839,13 @@
         "name": "uk-hiring-companies",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 5,
-          "totalRuns": 66,
+          "totalBuilds": 6,
+          "totalRuns": 74,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T07:28:33.493Z",
+          "lastRunStartedAt": "2026-11-23T07:36:33.570Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -878,9 +873,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -920,25 +913,27 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
-          "startedAt": "2026-10-18T06:38:29.743Z",
-          "createdAt": "2026-10-18T06:38:30.241Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:15:17.221Z",
+          "createdAt": "2026-11-21T10:15:24.953Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.037Z"
         },
         "id": "WIYJytM7EDWCEzzig",
         "url": "https://apify.com/wellbuilt_zythem/uk-hiring-companies"
@@ -948,13 +943,13 @@
         "name": "amazon-price-drops",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 11,
-          "totalRuns": 86,
+          "totalBuilds": 13,
+          "totalRuns": 94,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T07:22:33.418Z",
+          "lastRunStartedAt": "2026-11-23T07:28:38.600Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -982,9 +977,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "product": {
@@ -999,16 +992,16 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 },
                 "isPrimaryEvent": true
@@ -1025,16 +1018,16 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 }
               },
@@ -1065,9 +1058,11 @@
               }
             }
           },
-          "startedAt": "2026-10-18T06:35:08.855Z",
-          "createdAt": "2026-10-18T06:35:10.010Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:15:40.016Z",
+          "createdAt": "2026-11-21T10:15:46.994Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.067Z"
         },
         "id": "Z50K04Ncc1tDpakd1",
         "url": "https://apify.com/wellbuilt_zythem/amazon-price-drops"
@@ -1077,21 +1072,21 @@
         "name": "amazon-real-deals",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 16,
-          "totalRuns": 87,
+          "totalBuilds": 18,
+          "totalRuns": 95,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T08:56:33.950Z",
+          "lastRunStartedAt": "2026-11-23T09:02:37.345Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 27,
-            "TIMED-OUT": 1,
+            "SUCCEEDED": 28,
+            "TIMED-OUT": 0,
             "TOTAL": 28
           }
         },
@@ -1111,9 +1106,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -1153,25 +1146,27 @@
                     "tieredEventPriceUsd": 0.004
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0038
+                    "tieredEventPriceUsd": 0.0036
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
-          "startedAt": "2026-10-20T08:11:57.423Z",
-          "createdAt": "2026-10-20T08:11:58.742Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:15:56.869Z",
+          "createdAt": "2026-11-21T10:16:04.133Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.088Z"
         },
         "id": "0BLxYXUbm84umhPsj",
         "url": "https://apify.com/wellbuilt_zythem/amazon-real-deals"
@@ -1181,13 +1176,13 @@
         "name": "rightmove-listings",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 65,
+          "totalBuilds": 9,
+          "totalRuns": 73,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T09:06:36.798Z",
+          "lastRunStartedAt": "2026-11-23T09:14:35.947Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -1215,9 +1210,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -1257,16 +1250,16 @@
                     "tieredEventPriceUsd": 0.0025
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.002375
+                    "tieredEventPriceUsd": 0.00225
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.00225
+                    "tieredEventPriceUsd": 0.002
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.00225
+                    "tieredEventPriceUsd": 0.002
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.00225
+                    "tieredEventPriceUsd": 0.002
                   }
                 },
                 "isPrimaryEvent": true
@@ -1283,26 +1276,26 @@
                     "tieredEventPriceUsd": 0.0025
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.002375
+                    "tieredEventPriceUsd": 0.00225
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.00225
+                    "tieredEventPriceUsd": 0.002
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.00225
+                    "tieredEventPriceUsd": 0.002
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.00225
+                    "tieredEventPriceUsd": 0.002
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:16:14.126Z",
+          "createdAt": "2026-11-21T10:16:21.959Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:03:43.267Z",
-          "startedAt": "2026-10-27T07:03:43.267Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.741Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.106Z"
         },
         "id": "kYNMf3ux38tNgG21j",
         "url": "https://apify.com/wellbuilt_zythem/rightmove-listings"
@@ -1312,13 +1305,13 @@
         "name": "us-company-check",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 3,
-          "totalRuns": 65,
+          "totalBuilds": 4,
+          "totalRuns": 73,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T07:02:35.252Z",
+          "lastRunStartedAt": "2026-11-23T07:10:34.126Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -1346,9 +1339,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -1389,16 +1380,16 @@
                     "tieredEventPriceUsd": 0.003
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00285
+                    "tieredEventPriceUsd": 0.0027
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0027
+                    "tieredEventPriceUsd": 0.0024
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0027
+                    "tieredEventPriceUsd": 0.0024
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0027
+                    "tieredEventPriceUsd": 0.0024
                   }
                 }
               },
@@ -1414,26 +1405,26 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:16:31.936Z",
+          "createdAt": "2026-11-21T10:16:39.707Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:05:34.974Z",
-          "startedAt": "2026-10-27T07:05:34.974Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.899Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.118Z"
         },
         "id": "7t2EE5hxRLfqxb94M",
         "url": "https://apify.com/wellbuilt_zythem/us-company-check"
@@ -1443,22 +1434,22 @@
         "name": "airbnb-reviews",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 10,
-          "totalRuns": 76,
+          "totalBuilds": 12,
+          "totalRuns": 84,
           "totalUsers": 2,
           "totalUsers7Days": 0,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T06:56:51.537Z",
+          "lastRunStartedAt": "2026-11-23T07:04:38.674Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 1,
-            "SUCCEEDED": 29,
+            "SUCCEEDED": 30,
             "TIMED-OUT": 0,
-            "TOTAL": 30
+            "TOTAL": 31
           }
         },
         "description": "Airbnb reviews for any listing URL, or for the top listings of any city: rating, date, text with English translation, host reply, stay length, reviewer first name and home town, plus Airbnb's topic summaries per listing. Filter by stars, date or Airbnb's review search. Feed mode: only new reviews.",
@@ -1477,9 +1468,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "review": {
@@ -1494,16 +1483,16 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 },
                 "isPrimaryEvent": true
@@ -1520,16 +1509,16 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 }
               },
@@ -1560,10 +1549,11 @@
               }
             }
           },
-          "startedAt": "2026-10-18T06:19:19.800Z",
-          "createdAt": "2026-10-18T06:19:20.921Z",
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:16:55.541Z",
+          "createdAt": "2026-11-21T10:17:02.604Z",
           "apifyMarginPercentage": 0.2,
-          "notifiedAboutChangeAt": "2026-10-18T06:30:24.516Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.128Z"
         },
         "id": "dkjCXsQZOs0RsRULu",
         "url": "https://apify.com/wellbuilt_zythem/airbnb-reviews"
@@ -1573,13 +1563,13 @@
         "name": "google-play-reviews",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 4,
-          "totalRuns": 67,
+          "totalBuilds": 5,
+          "totalRuns": 75,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T09:14:38.762Z",
+          "lastRunStartedAt": "2026-11-23T09:20:34.531Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -1607,9 +1597,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -1649,27 +1637,27 @@
                     "tieredEventPriceUsd": 0.0004
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00038
+                    "tieredEventPriceUsd": 0.00036
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.00036
+                    "tieredEventPriceUsd": 0.00032
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.00036
+                    "tieredEventPriceUsd": 0.00032
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.00036
+                    "tieredEventPriceUsd": 0.00032
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:17:12.862Z",
+          "createdAt": "2026-11-21T10:17:19.945Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:02:29.928Z",
-          "startedAt": "2026-10-27T07:02:29.928Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.240Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.148Z"
         },
         "id": "A0z5J82AeHznRHMRS",
         "url": "https://apify.com/wellbuilt_zythem/google-play-reviews"
@@ -1679,13 +1667,13 @@
         "name": "uk-new-companies",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 3,
-          "totalRuns": 60,
+          "totalBuilds": 4,
+          "totalRuns": 68,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T09:10:38.976Z",
+          "lastRunStartedAt": "2026-11-23T09:18:35.444Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -1713,9 +1701,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -1755,16 +1741,16 @@
                     "tieredEventPriceUsd": 0.004
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0038
+                    "tieredEventPriceUsd": 0.0036
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   }
                 },
                 "isPrimaryEvent": true
@@ -1781,26 +1767,26 @@
                     "tieredEventPriceUsd": 0.004
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0038
+                    "tieredEventPriceUsd": 0.0036
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0036
+                    "tieredEventPriceUsd": 0.0032
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:17:32.820Z",
+          "createdAt": "2026-11-21T10:17:40.750Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:04:47.846Z",
-          "startedAt": "2026-10-27T07:04:47.846Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.819Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.178Z"
         },
         "id": "JaSg4wudD18G59vsB",
         "url": "https://apify.com/wellbuilt_zythem/uk-new-companies"
@@ -1810,22 +1796,22 @@
         "name": "airbnb-new-listings",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 9,
-          "totalRuns": 77,
+          "totalBuilds": 11,
+          "totalRuns": 85,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T06:22:31.815Z",
+          "lastRunStartedAt": "2026-11-23T06:28:32.412Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 28,
+            "SUCCEEDED": 29,
             "TIMED-OUT": 0,
-            "TOTAL": 28
+            "TOTAL": 29
           }
         },
         "description": "Airbnb listings for any city with two signals other scrapers skip: which listings are new (no reviews yet, or not seen in your last run) and which dropped their price (Airbnb's own 'originally' price, plus the change since your last run). Host name and Superhost on request. Schedule it for a feed.",
@@ -1844,9 +1830,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "listing": {
@@ -1861,16 +1845,16 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 },
                 "isPrimaryEvent": true
@@ -1902,10 +1886,11 @@
               }
             }
           },
-          "startedAt": "2026-10-18T17:48:49.400Z",
-          "createdAt": "2026-10-18T17:48:50.001Z",
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:17:50.974Z",
+          "createdAt": "2026-11-21T10:18:00.379Z",
           "apifyMarginPercentage": 0.2,
-          "notifiedAboutChangeAt": "2026-10-18T18:00:29.763Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.189Z"
         },
         "id": "Z9t00maY4cKVkVYAX",
         "url": "https://apify.com/wellbuilt_zythem/airbnb-new-listings"
@@ -1915,22 +1900,22 @@
         "name": "redfin-listings",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 6,
-          "totalRuns": 66,
+          "totalBuilds": 8,
+          "totalRuns": 74,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T07:00:38.467Z",
+          "lastRunStartedAt": "2026-11-23T07:06:36.889Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 28,
+            "SUCCEEDED": 29,
             "TIMED-OUT": 0,
-            "TOTAL": 28
+            "TOTAL": 29
           }
         },
         "description": "Redfin homes for sale by US city, ZIP or Redfin URL. Each home compared with recent sales in its ZIP ($/sq ft vs median, Redfin Data Center). Schedule it: new listings, price drops and homes that left the market since your last run. No proxy needed.",
@@ -1949,9 +1934,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -1992,26 +1975,26 @@
                     "tieredEventPriceUsd": 0.001
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00095
+                    "tieredEventPriceUsd": 0.0009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0009
+                    "tieredEventPriceUsd": 0.0008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0009
+                    "tieredEventPriceUsd": 0.0008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0009
+                    "tieredEventPriceUsd": 0.0008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:18:11.878Z",
+          "createdAt": "2026-11-21T10:18:19.126Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:03:29.817Z",
-          "startedAt": "2026-10-27T07:03:29.817Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.730Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.227Z"
         },
         "id": "xLQHaSRT9GAooblSf",
         "url": "https://apify.com/wellbuilt_zythem/redfin-listings"
@@ -2021,22 +2004,22 @@
         "name": "youtube-outliers",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 1,
-          "totalRuns": 87,
+          "totalBuilds": 3,
+          "totalRuns": 95,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T06:38:32.246Z",
+          "lastRunStartedAt": "2026-11-23T06:44:34.562Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 21,
+            "SUCCEEDED": 25,
             "TIMED-OUT": 0,
-            "TOTAL": 21
+            "TOTAL": 25
           }
         },
         "description": "Find YouTube videos with many times their channel's usual views. Search by keyword, upload date, length and country; get outlier score, channel median views, views per subscriber and views per day. No API key. Pay per outlier.",
@@ -2054,9 +2037,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -2077,25 +2058,27 @@
                     "tieredEventPriceUsd": 0.005
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00475
+                    "tieredEventPriceUsd": 0.0045
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
-          "startedAt": "2026-10-28T06:04:15.597Z",
-          "createdAt": "2026-10-28T06:04:16.514Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:12:16.037Z",
+          "createdAt": "2026-11-21T10:12:23.566Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T10:30:36.846Z"
         },
         "id": "6LDBILUGcJPKasx3d",
         "url": "https://apify.com/wellbuilt_zythem/youtube-outliers"
@@ -2105,22 +2088,22 @@
         "name": "kalshi-trades-api",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 3,
-          "totalRuns": 43,
+          "totalBuilds": 5,
+          "totalRuns": 51,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T06:34:34.594Z",
+          "lastRunStartedAt": "2026-11-23T06:42:34.061Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 18,
+            "SUCCEEDED": 23,
             "TIMED-OUT": 0,
-            "TOTAL": 18
+            "TOTAL": 23
           }
         },
         "description": "Every Kalshi trade with the market question attached: side, price, contracts and dollars paid. Filter whale trades by size, series (Fed, CPI, weather, sports) or category. Also markets with odds, volume and open interest, order books and price history. Official API, no key.",
@@ -2139,9 +2122,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -2154,32 +2135,110 @@
                 "eventTitle": "Trade",
                 "eventDescription": "One Kalshi trade with its market question, side, price, contracts and dollars paid.",
                 "isOneTimeEvent": false,
-                "eventPriceUsd": 0.001,
-                "isPrimaryEvent": true
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0009
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0008
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0008
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0008
+                  }
+                }
               },
               "market": {
                 "eventTitle": "Market",
                 "eventDescription": "One Kalshi market with odds, volume and open interest.",
                 "isOneTimeEvent": false,
-                "eventPriceUsd": 0.001
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0009
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0008
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0008
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0008
+                  }
+                }
               },
               "orderbook_snapshot": {
                 "eventTitle": "Order book",
                 "eventDescription": "One order book snapshot of a Kalshi market, bids and asks.",
                 "isOneTimeEvent": false,
-                "eventPriceUsd": 0.002
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0016
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0016
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0016
+                  }
+                }
               },
               "price_point": {
                 "eventTitle": "Price point",
                 "eventDescription": "One point of a Kalshi market's price history.",
                 "isOneTimeEvent": false,
-                "eventPriceUsd": 0.0002
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0002
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.0002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00018
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.00016
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.00016
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.00016
+                  }
+                }
               }
             }
           },
-          "startedAt": "2026-10-31T06:02:48.068Z",
-          "createdAt": "2026-10-31T06:02:49.031Z",
-          "apifyMarginPercentage": 0.2
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:31:55.687Z",
+          "createdAt": "2026-11-21T10:32:04.401Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-21T11:00:42.530Z"
         },
         "id": "jgK4C4Owtl3rrpYvY",
         "url": "https://apify.com/wellbuilt_zythem/kalshi-trades-api"
@@ -2189,22 +2248,22 @@
         "name": "florida-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 8,
-          "totalRuns": 89,
+          "totalBuilds": 9,
+          "totalRuns": 97,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T06:16:30.339Z",
+          "lastRunStartedAt": "2026-11-23T06:20:34.133Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 28,
+            "SUCCEEDED": 29,
             "TIMED-OUT": 0,
-            "TOTAL": 28
+            "TOTAL": 29
           }
         },
         "description": "Every DBPR-licensed contractor in Florida. Export a whole trade (roofing, electrical, plumbing, HVAC, pools) or verify a list of names or licence numbers. Status, expiry date, address, county. No phone: Florida does not publish it. Official register, measured coverage",
@@ -2223,9 +2282,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -2241,16 +2298,16 @@
                     "tieredEventPriceUsd": 0.005
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00475
+                    "tieredEventPriceUsd": 0.0045
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   }
                 }
               },
@@ -2281,11 +2338,11 @@
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:18:38.093Z",
+          "createdAt": "2026-11-21T10:18:45.812Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:02:01.200Z",
-          "startedAt": "2026-10-27T07:02:01.200Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:24.720Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.246Z"
         },
         "id": "9cpmjkAHlg4WjMOy0",
         "url": "https://apify.com/wellbuilt_zythem/florida-contractor-license-lookup"
@@ -2295,25 +2352,25 @@
         "name": "us-active-contractors",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 16,
-          "totalRuns": 104,
+          "totalBuilds": 17,
+          "totalRuns": 112,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T07:12:35.232Z",
+          "lastRunStartedAt": "2026-11-23T07:18:40.268Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
-            "SUCCEEDED": 28,
+            "SUCCEEDED": 29,
             "TIMED-OUT": 0,
-            "TOTAL": 28
+            "TOTAL": 29
           }
         },
-        "description": "Contractors who pulled a building permit in the last 90 days in Seattle, Orlando, Cincinnati or Marin County, matched to their state licence: status, expiry date, phone. One row per contractor with permit count, total job value and lead score. 74 % matched in Seattle, measured.",
+        "description": "Contractors who pulled a building permit in the last 90 days in Seattle, Orlando, Cincinnati or Marin County, matched to their state license: status, expiry date, phone. One row per contractor with permit count, total job value and lead score. 74 % matched in Seattle, measured.",
         "categories": [
           "LEAD_GENERATION",
           "BUSINESS",
@@ -2329,9 +2386,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "active_contractor": {
@@ -2347,16 +2402,16 @@
                     "tieredEventPriceUsd": 0.02
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.019
+                    "tieredEventPriceUsd": 0.018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   }
                 }
               },
@@ -2387,11 +2442,11 @@
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:19:01.627Z",
+          "createdAt": "2026-11-21T10:19:09.145Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:05:04.363Z",
-          "startedAt": "2026-10-27T07:05:04.363Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.847Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.257Z"
         },
         "id": "rbSynXlcc57Ybe775",
         "url": "https://apify.com/wellbuilt_zythem/us-active-contractors"
@@ -2401,13 +2456,13 @@
         "name": "us-building-permits",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 26,
-          "totalRuns": 121,
+          "totalBuilds": 27,
+          "totalRuns": 129,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:01:18.011Z",
+          "lastRunStartedAt": "2026-11-23T04:02:53.018Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -2435,9 +2490,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -2453,16 +2506,16 @@
                     "tieredEventPriceUsd": 0.005
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00475
+                    "tieredEventPriceUsd": 0.0045
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   }
                 }
               },
@@ -2503,16 +2556,16 @@
                     "tieredEventPriceUsd": 0.02
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.019
+                    "tieredEventPriceUsd": 0.018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.018
+                    "tieredEventPriceUsd": 0.016
                   }
                 }
               },
@@ -2528,26 +2581,26 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:19:37.443Z",
+          "createdAt": "2026-11-21T10:19:45.921Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:05:20.873Z",
-          "startedAt": "2026-10-27T07:05:20.873Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.879Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.269Z"
         },
         "id": "rIlbDtgvdP0b2Wxix",
         "url": "https://apify.com/wellbuilt_zythem/us-building-permits"
@@ -2557,13 +2610,13 @@
         "name": "zillow-motivated-sellers",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 17,
-          "totalRuns": 109,
+          "totalBuilds": 19,
+          "totalRuns": 117,
           "totalUsers": 2,
           "totalUsers7Days": 0,
           "totalUsers30Days": 0,
           "totalUsers90Days": 2,
-          "lastRunStartedAt": "2026-11-19T04:01:35.163Z",
+          "lastRunStartedAt": "2026-11-23T04:03:35.515Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -2591,10 +2644,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -2610,16 +2660,16 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               },
@@ -2660,25 +2710,26 @@
                     "tieredEventPriceUsd": 0.005
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00475
+                    "tieredEventPriceUsd": 0.0045
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:20:01.994Z",
+          "createdAt": "2026-11-21T10:20:10.266Z",
           "apifyMarginPercentage": 0.2,
-          "createdAt": "2026-10-27T07:06:26.804Z",
-          "startedAt": "2026-10-27T07:06:26.804Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.971Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.287Z"
         },
         "id": "hzUsMa7ZrKz21kdMA",
         "url": "https://apify.com/wellbuilt_zythem/zillow-motivated-sellers"
@@ -2688,13 +2739,13 @@
         "name": "uk-food-business-leads",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 10,
-          "totalRuns": 105,
+          "totalBuilds": 11,
+          "totalRuns": 113,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:01:07.954Z",
+          "lastRunStartedAt": "2026-11-23T04:02:25.525Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -2722,9 +2773,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -2740,16 +2789,16 @@
                     "tieredEventPriceUsd": 0.001
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00095
+                    "tieredEventPriceUsd": 0.0009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0009
+                    "tieredEventPriceUsd": 0.0008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0009
+                    "tieredEventPriceUsd": 0.0008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0009
+                    "tieredEventPriceUsd": 0.0008
                   }
                 }
               },
@@ -2780,11 +2829,11 @@
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:20:22.123Z",
+          "createdAt": "2026-11-21T10:20:28.930Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:04:26.488Z",
-          "startedAt": "2026-10-27T07:04:26.488Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.798Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.305Z"
         },
         "id": "4tbfE398CXkDbj4Fp",
         "url": "https://apify.com/wellbuilt_zythem/uk-food-business-leads"
@@ -2794,13 +2843,13 @@
         "name": "spain-rural-accommodation-registry",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 13,
-          "totalRuns": 104,
+          "totalBuilds": 14,
+          "totalRuns": 113,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T11:28:22.297Z",
+          "lastRunStartedAt": "2026-11-23T04:02:10.106Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -2828,10 +2877,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
-          "reasonForChange": "The Actor had been free while the pricing was being set up. It now charges per delivered accommodation record, at a rate that keeps the full Spanish register (about 17,000 rows) at a few dollars. Filtered-out rows and failed runs are not charged.",
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -2871,26 +2917,27 @@
                     "tieredEventPriceUsd": 0.003
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00285
+                    "tieredEventPriceUsd": 0.0027
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0027
+                    "tieredEventPriceUsd": 0.0024
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0027
+                    "tieredEventPriceUsd": 0.0024
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0027
+                    "tieredEventPriceUsd": 0.0024
                   }
                 },
                 "isPrimaryEvent": true
               }
             }
           },
-          "startedAt": "2026-10-18T18:12:12.085Z",
-          "createdAt": "2026-10-18T18:12:12.694Z",
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:20:39.752Z",
+          "createdAt": "2026-11-21T10:20:46.863Z",
           "apifyMarginPercentage": 0.2,
-          "notifiedAboutChangeAt": "2026-10-18T18:30:31.594Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.337Z"
         },
         "id": "OsuLDaFnGHiMoCztd",
         "url": "https://apify.com/wellbuilt_zythem/spain-rural-accommodation-registry"
@@ -2900,13 +2947,13 @@
         "name": "us-storm-roofing-leads",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 10,
-          "totalRuns": 86,
+          "totalBuilds": 11,
+          "totalRuns": 94,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:01:25.323Z",
+          "lastRunStartedAt": "2026-11-23T04:03:15.931Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -2934,9 +2981,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -2952,16 +2997,16 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               },
@@ -2977,16 +3022,16 @@
                     "tieredEventPriceUsd": 0.002
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0019
+                    "tieredEventPriceUsd": 0.0018
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0018
+                    "tieredEventPriceUsd": 0.0016
                   }
                 }
               },
@@ -3017,11 +3062,11 @@
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:21:05.203Z",
+          "createdAt": "2026-11-21T10:21:12.733Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:06:11.867Z",
-          "startedAt": "2026-10-27T07:06:11.867Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.945Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.408Z"
         },
         "id": "FNFfp2vYNiRVU7gMO",
         "url": "https://apify.com/wellbuilt_zythem/us-storm-roofing-leads"
@@ -3031,13 +3076,13 @@
         "name": "oregon-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 6,
-          "totalRuns": 82,
+          "totalBuilds": 7,
+          "totalRuns": 90,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:00:50.430Z",
+          "lastRunStartedAt": "2026-11-23T04:07:30.496Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3065,9 +3110,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -3108,26 +3151,26 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:21:28.270Z",
+          "createdAt": "2026-11-21T10:21:36.246Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:03:15.939Z",
-          "startedAt": "2026-10-27T07:03:15.939Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.693Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.437Z"
         },
         "id": "PeB20iRA2Iaa7BYBE",
         "url": "https://apify.com/wellbuilt_zythem/oregon-contractor-license-lookup"
@@ -3137,13 +3180,13 @@
         "name": "oklahoma-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 84,
+          "totalBuilds": 8,
+          "totalRuns": 92,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:00:39.844Z",
+          "lastRunStartedAt": "2026-11-23T04:01:49.708Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3171,9 +3214,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -3214,26 +3255,26 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:21:48.346Z",
+          "createdAt": "2026-11-21T10:21:56.117Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:03:01.065Z",
-          "startedAt": "2026-10-27T07:03:01.065Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.684Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.458Z"
         },
         "id": "VpUCzsEmiLiUBmOWc",
         "url": "https://apify.com/wellbuilt_zythem/oklahoma-contractor-license-lookup"
@@ -3243,13 +3284,13 @@
         "name": "us-new-business-openings",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 5,
-          "totalRuns": 82,
+          "totalBuilds": 6,
+          "totalRuns": 90,
           "totalUsers": 2,
           "totalUsers7Days": 0,
           "totalUsers30Days": 0,
           "totalUsers90Days": 0,
-          "lastRunStartedAt": "2026-11-19T04:01:22.627Z",
+          "lastRunStartedAt": "2026-11-23T04:03:12.111Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3277,9 +3318,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -3320,26 +3359,26 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:22:06.778Z",
+          "createdAt": "2026-11-21T10:22:13.968Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:05:56.504Z",
-          "startedAt": "2026-10-27T07:05:56.504Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.929Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.478Z"
         },
         "id": "0c2EFWffxS6qKOnHN",
         "url": "https://apify.com/wellbuilt_zythem/us-new-business-openings"
@@ -3349,13 +3388,13 @@
         "name": "texas-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 82,
+          "totalBuilds": 8,
+          "totalRuns": 90,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:01:01.769Z",
+          "lastRunStartedAt": "2026-11-23T04:02:11.622Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3383,9 +3422,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -3426,26 +3463,26 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:22:23.604Z",
+          "createdAt": "2026-11-21T10:22:31.606Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:04:05.031Z",
-          "startedAt": "2026-10-27T07:04:05.031Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.770Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.498Z"
         },
         "id": "E65LkPomrOWbdW5bS",
         "url": "https://apify.com/wellbuilt_zythem/texas-contractor-license-lookup"
@@ -3455,13 +3492,13 @@
         "name": "nevada-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 83,
+          "totalBuilds": 8,
+          "totalRuns": 91,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:00:40.028Z",
+          "lastRunStartedAt": "2026-11-23T04:07:09.537Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3489,9 +3526,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -3532,26 +3567,26 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:22:59.389Z",
+          "createdAt": "2026-11-21T10:23:07.077Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:02:44.034Z",
-          "startedAt": "2026-10-27T07:02:44.034Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:25.619Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.518Z"
         },
         "id": "Ec4wP3wRY2ndw0qhr",
         "url": "https://apify.com/wellbuilt_zythem/nevada-contractor-license-lookup"
@@ -3561,13 +3596,13 @@
         "name": "alabama-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 7,
-          "totalRuns": 87,
+          "totalBuilds": 8,
+          "totalRuns": 95,
           "totalUsers": 2,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:00:09.345Z",
+          "lastRunStartedAt": "2026-11-23T04:00:13.451Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3595,9 +3630,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "apify-actor-start": {
@@ -3638,26 +3671,26 @@
                     "tieredEventPriceUsd": 0.01
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0095
+                    "tieredEventPriceUsd": 0.009
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.009
+                    "tieredEventPriceUsd": 0.008
                   }
                 }
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:23:20.967Z",
+          "createdAt": "2026-11-21T10:23:29.323Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:00:32.505Z",
-          "startedAt": "2026-10-27T07:00:32.505Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:24.522Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.529Z"
         },
         "id": "JNOv7p4cdXjbieECE",
         "url": "https://apify.com/wellbuilt_zythem/alabama-contractor-license-lookup"
@@ -3667,13 +3700,13 @@
         "name": "california-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 12,
-          "totalRuns": 98,
+          "totalBuilds": 13,
+          "totalRuns": 106,
           "totalUsers": 1,
           "totalUsers7Days": 0,
           "totalUsers30Days": 0,
           "totalUsers90Days": 0,
-          "lastRunStartedAt": "2026-11-19T04:00:20.826Z",
+          "lastRunStartedAt": "2026-11-23T04:00:37.721Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3701,9 +3734,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -3719,16 +3750,16 @@
                     "tieredEventPriceUsd": 0.009
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00855
+                    "tieredEventPriceUsd": 0.0081
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0081
+                    "tieredEventPriceUsd": 0.0072
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0081
+                    "tieredEventPriceUsd": 0.0072
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0081
+                    "tieredEventPriceUsd": 0.0072
                   }
                 }
               },
@@ -3744,16 +3775,16 @@
                     "tieredEventPriceUsd": 0.012
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.0114
+                    "tieredEventPriceUsd": 0.0108
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0108
+                    "tieredEventPriceUsd": 0.0096
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0108
+                    "tieredEventPriceUsd": 0.0096
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0108
+                    "tieredEventPriceUsd": 0.0096
                   }
                 }
               },
@@ -3784,11 +3815,11 @@
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:23:46.312Z",
+          "createdAt": "2026-11-21T10:23:54.345Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:01:31.227Z",
-          "startedAt": "2026-10-27T07:01:31.227Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:24.669Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.545Z"
         },
         "id": "UJpA9dAwfrVDbTEju",
         "url": "https://apify.com/wellbuilt_zythem/california-contractor-license-lookup"
@@ -3798,8 +3829,8 @@
         "name": "arizona-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 9,
-          "totalRuns": 290,
+          "totalBuilds": 10,
+          "totalRuns": 302,
           "totalUsers": 1,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
@@ -3807,7 +3838,7 @@
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
-          "lastRunStartedAt": "2026-11-19T06:22:31.786Z",
+          "lastRunStartedAt": "2026-11-23T06:28:32.460Z",
           "publicActorRunStats30Days": {
             "ABORTED": 0,
             "FAILED": 0,
@@ -3847,13 +3878,13 @@
         "name": "connecticut-contractor-license-lookup",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 6,
-          "totalRuns": 84,
+          "totalBuilds": 7,
+          "totalRuns": 92,
           "totalUsers": 1,
           "totalUsers7Days": 0,
           "totalUsers30Days": 0,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T04:00:21.342Z",
+          "lastRunStartedAt": "2026-11-23T04:00:44.273Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -3881,9 +3912,7 @@
         "userFullName": "Carlos Escanez",
         "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
         "currentPricingInfo": {
-          "minimalMaxTotalChargeUsd": null,
           "pricingModel": "PAY_PER_EVENT",
-          "isPriceChangeNotificationSuppressed": false,
           "pricingPerEvent": {
             "actorChargeEvents": {
               "record": {
@@ -3899,16 +3928,16 @@
                     "tieredEventPriceUsd": 0.005
                   },
                   "SILVER": {
-                    "tieredEventPriceUsd": 0.00475
+                    "tieredEventPriceUsd": 0.0045
                   },
                   "GOLD": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "PLATINUM": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   },
                   "DIAMOND": {
-                    "tieredEventPriceUsd": 0.0045
+                    "tieredEventPriceUsd": 0.004
                   }
                 }
               },
@@ -3939,11 +3968,11 @@
               }
             }
           },
+          "minimalMaxTotalChargeUsd": null,
+          "startedAt": "2026-11-21T10:24:06.170Z",
+          "createdAt": "2026-11-21T10:24:13.387Z",
           "apifyMarginPercentage": 0.2,
-          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
-          "createdAt": "2026-10-27T07:01:46.833Z",
-          "startedAt": "2026-10-27T07:01:46.833Z",
-          "notifiedAboutChangeAt": "2026-10-27T07:30:24.687Z"
+          "notifiedAboutChangeAt": "2026-11-21T10:30:37.557Z"
         },
         "id": "ZZMbbjG5W9RfI0VKE",
         "url": "https://apify.com/wellbuilt_zythem/connecticut-contractor-license-lookup"
@@ -3953,13 +3982,13 @@
         "name": "airbnb-license-check",
         "username": "wellbuilt_zythem",
         "stats": {
-          "totalBuilds": 11,
-          "totalRuns": 83,
+          "totalBuilds": 13,
+          "totalRuns": 91,
           "totalUsers": 1,
           "totalUsers7Days": 1,
           "totalUsers30Days": 1,
           "totalUsers90Days": 1,
-          "lastRunStartedAt": "2026-11-19T06:50:28.888Z",
+          "lastRunStartedAt": "2026-11-23T06:54:33.605Z",
           "actorReviewCount": 0,
           "actorReviewRating": 0,
           "bookmarkCount": 0,
@@ -4077,6 +4106,1390 @@
         },
         "id": "6GbW8hZnm2q1JYq0Y",
         "url": "https://apify.com/wellbuilt_zythem/airbnb-license-check"
+      },
+      {
+        "title": "Meta Ad Status Checker: Are These Facebook Ads Still Running?",
+        "name": "meta-ad-status-checker",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 3,
+          "totalRuns": 4,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T10:52:31.897Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0
+        },
+        "description": "Paste Facebook or Instagram Ad Library IDs or links, in bulk. Get each ad's status (active, inactive, not found), start and stop date, days running and page name. Track competitor ads or prove an ad is live. No login. Pay per ad checked.",
+        "categories": [
+          "MARKETING",
+          "SOCIAL_MEDIA"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/KfEn6h8VgruwnyJj00SLzRKKgdbQn4iqJWPCBHdj0Qw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3IteVgzTEJzRENqeVd2Vm1aMmEtb1B1Qm5FRlJPdS0xNC1tZXRhLWFudW5jaW9zLWFjdGl2b3MucG5n.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "ad-checked": {
+                "eventTitle": "Ad checked",
+                "eventDescription": "One ad checked with a clear answer (active, inactive or not found), with start and stop date, days running and page name. Ads with no answer (unknown) are not charged.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.004
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.00004
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.00004
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.00004
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-23T10:42:31.595Z",
+          "startedAt": "2026-11-23T10:42:31.595Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "yX3LBsDCjyWvVmZ2a",
+        "url": "https://apify.com/wellbuilt_zythem/meta-ad-status-checker"
+      },
+      {
+        "title": "North Carolina Contractor License Lookup & Verification",
+        "name": "north-carolina-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 10,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T04:46:36.764Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 4,
+            "TIMED-OUT": 0,
+            "TOTAL": 4
+          }
+        },
+        "description": "Every contractor licensed by the North Carolina boards for general, electrical and plumbing contractors, with phone on 92 % of rows, measured. Export a whole trade (building, roofing, electrical, plumbing, HVAC, fire sprinkler) or verify a list of names or license numbers. Official register.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:38.133Z",
+          "startedAt": "2026-11-20T04:42:38.133Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "xDZUshsr5p5Q94G4k",
+        "url": "https://apify.com/wellbuilt_zythem/north-carolina-contractor-license-lookup"
+      },
+      {
+        "title": "Texas Liquor License Leads - New TABC Licenses & Applications",
+        "name": "texas-liquor-license-leads",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 1,
+          "totalRuns": 3,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T04:32:36.989Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 1,
+            "TIMED-OUT": 0,
+            "TOTAL": 1
+          }
+        },
+        "description": "New bars, restaurants and liquor stores in Texas before they open: pending TABC license applications and newly issued licenses from the official open data, with owner, address and license type. Also expiring licenses and lookup by name. Only-new mode for daily feeds.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS"
+        ],
+        "pictureUrl": "https://images.apifyusercontent.com/Gr95oG-P5ZiOmBhmVoltUHllQfbAsoeKtJ_7XWNBbJk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItdDBhZnB0Y1dvMm0wYU5yYTQtZEthZGdLaGd0eS0xMy1hbGNvaG9sLXRleGFzLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "record": {
+                "eventTitle": "Record",
+                "eventDescription": "One TABC license application or license delivered, with owner, address, county, license type and dates.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0045
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.004
+                  }
+                }
+              },
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.00004
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.00004
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.00004
+                  }
+                }
+              }
+            }
+          },
+          "startedAt": "2026-11-22T03:51:00.820Z",
+          "createdAt": "2026-11-22T03:51:13.423Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "t0afptcWo2m0aNra4",
+        "url": "https://apify.com/wellbuilt_zythem/texas-liquor-license-leads"
+      },
+      {
+        "title": "New York Contractor License Lookup & Verification",
+        "name": "new-york-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 6,
+          "totalRuns": 12,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T05:00:35.868Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 3,
+            "TIMED-OUT": 0,
+            "TOTAL": 3
+          }
+        },
+        "description": "Every mold remediation, mold assessment and elevator contractor licensed by the New York State Department of Labor, with phone. Export the whole register or verify a list of names or license numbers, expired ones included. Status, expiry date, address, phone. Official open-data register.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:38.499Z",
+          "startedAt": "2026-11-20T04:42:38.499Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "gACFIHnZCLmyfKQTd",
+        "url": "https://apify.com/wellbuilt_zythem/new-york-contractor-license-lookup"
+      },
+      {
+        "title": "Louisiana Contractor License Lookup & Verification",
+        "name": "louisiana-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 10,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T04:46:36.494Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 4,
+            "TIMED-OUT": 0,
+            "TOTAL": 4
+          }
+        },
+        "description": "Every contractor licensed by the Louisiana State Licensing Board for Contractors (LSLBC), with the phone and email the board publishes. Export a whole trade (building, residential, roofing, electrical, HVAC, plumbing, pools) or verify a list of names or license numbers. Status, expiry date, address.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:37.956Z",
+          "startedAt": "2026-11-20T04:42:37.956Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "edXmuW9kfq40EUKH6",
+        "url": "https://apify.com/wellbuilt_zythem/louisiana-contractor-license-lookup"
+      },
+      {
+        "title": "Ohio Contractor License Lookup & Verification",
+        "name": "ohio-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 10,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T04:46:36.564Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 4,
+            "TIMED-OUT": 0,
+            "TOTAL": 4
+          }
+        },
+        "description": "Every contractor licensed by the Ohio Construction Industry Licensing Board (OCILB): electrical, HVAC, plumbing, hydronics, refrigeration. Phone on 70 % of rows, measured. Export a whole trade or verify a list of names or license numbers. Status, expiry date, address, county. Official register.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:37.759Z",
+          "startedAt": "2026-11-20T04:42:37.759Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "eFXwuXyTNZTC93dCN",
+        "url": "https://apify.com/wellbuilt_zythem/ohio-contractor-license-lookup"
+      },
+      {
+        "title": "Minnesota Contractor License Lookup & Verification",
+        "name": "minnesota-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 10,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T04:46:36.605Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 4,
+            "TIMED-OUT": 0,
+            "TOTAL": 4
+          }
+        },
+        "description": "Every contractor licensed by the Minnesota Department of Labor and Industry (DLI), with phone on 84 % of rows, measured. Export a whole trade (residential building, roofing, electrical, plumbing, elevator) or verify a list of names or license numbers. Status, expiry date, address. Official register.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:37.560Z",
+          "startedAt": "2026-11-20T04:42:37.560Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "YpE8rUpUJxThsgAZ1",
+        "url": "https://apify.com/wellbuilt_zythem/minnesota-contractor-license-lookup"
+      },
+      {
+        "title": "Virginia Contractor License Lookup & Verification",
+        "name": "virginia-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 4,
+          "totalRuns": 8,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T05:00:36.228Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 3,
+            "TIMED-OUT": 0,
+            "TOTAL": 3
+          }
+        },
+        "description": "Every contractor licensed by the Virginia DPOR Board for Contractors, with email on 75 % of rows, measured. Export a whole trade (building, electrical, plumbing, HVAC, roofing, home improvement) or verify a list of names or license numbers. Status, expiry date, address, email. Official register.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:38.681Z",
+          "startedAt": "2026-11-20T04:42:38.681Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "UtmR1zVcpDNCoeJTR",
+        "url": "https://apify.com/wellbuilt_zythem/virginia-contractor-license-lookup"
+      },
+      {
+        "title": "Delaware Contractor License Lookup & Verification",
+        "name": "delaware-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 9,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T05:00:35.699Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 3,
+            "TIMED-OUT": 0,
+            "TOTAL": 3
+          }
+        },
+        "description": "Every contractor licensed in Delaware, from the Division of Revenue and the Division of Professional Regulation: general construction, roofing, electrical, plumbing, HVAC, water wells and more. Export a whole trade or verify a list of names or license numbers. Status, expiry date, address.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:38.868Z",
+          "startedAt": "2026-11-20T04:42:38.868Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "PzxmGekb6q8fHe9JS",
+        "url": "https://apify.com/wellbuilt_zythem/delaware-contractor-license-lookup"
+      },
+      {
+        "title": "Arkansas Contractor License Lookup & Verification",
+        "name": "arkansas-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 5,
+          "totalRuns": 33,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "lastRunStartedAt": "2026-11-23T05:00:35.930Z",
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 3,
+            "TIMED-OUT": 0,
+            "TOTAL": 3
+          }
+        },
+        "description": "Every contractor licensed by the Arkansas CLB, with email on 97 % and phone on 99 % of rows, measured. Export a whole trade (roofing, electrical, plumbing, HVAC) or verify a list of names or licence numbers. Status, expiry date, address, phone, email. Official register.",
+        "categories": [],
+        "pictureUrl": "https://images.apifyusercontent.com/1kNmkL_Dak1jMFnvxziAH1MjuPHo3SYGEEgd_pBXYdk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTGRMWUk3aGdVMTkya0tEcEstYWN0b3ItSjFUVUxXNmU5czlQQjVNSkYtQngydHhxeldKSy0wNi1jb250cmF0aXN0YXMtdXNhLnBuZw.webp",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": false,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "pricingModel": "FREE",
+          "createdAt": "2026-10-20T15:40:16.792Z",
+          "startedAt": "2026-10-20T15:40:08.852Z",
+          "apifyMarginPercentage": 0
+        },
+        "id": "J1TULW6e9s9PB5MJF",
+        "url": "https://apify.com/wellbuilt_zythem/arkansas-contractor-license-lookup"
+      },
+      {
+        "title": "Washington Contractor License Lookup & Verification",
+        "name": "washington-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 4,
+          "totalRuns": 8,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T05:00:35.326Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 3,
+            "TIMED-OUT": 0,
+            "TOTAL": 3
+          }
+        },
+        "description": "Every contractor licensed by Washington State Labor & Industries (L&I), with the phone the board publishes. Export a whole trade (construction, electrical, plumbing, elevator) or verify a list of names or license numbers. Status, expiry date, address, phone. Official open-data register.",
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "minimalMaxTotalChargeUsd": null,
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "licence record",
+                "eventDescription": "One Texas contractor licence delivered from the TDLR or the TSBPE: licence number, trade, status, expiry date, business name, address and phone where the board publishes it. Filtered-out rows cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0095
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.009
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:42:38.317Z",
+          "startedAt": "2026-11-20T04:42:38.317Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "If8kOWbEIBRA8WFp8",
+        "url": "https://apify.com/wellbuilt_zythem/washington-contractor-license-lookup"
+      },
+      {
+        "title": "Quebec Contractor License Lookup (RBQ) - Email & Phone",
+        "name": "quebec-contractor-license-lookup",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 2,
+          "totalRuns": 4,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T10:50:29.545Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0
+        },
+        "description": "Every active RBQ contractor licence in Quebec with business name, email, phone, address, NEQ, legal status, categories and subcategories. Look up by licence, NEQ or name, or search by city, region, trade and issue date. From the official RBQ open data, refreshed daily.",
+        "categories": [
+          "LEAD_GENERATION",
+          "BUSINESS"
+        ],
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "record": {
+                "eventTitle": "Licence record",
+                "eventDescription": "One RBQ licence delivered with name, email, phone, address, NEQ and trades. Filtered-out licences cost nothing.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.01
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.009
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.008
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.008
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.008
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": "2026-11-23T10:46:43.074Z",
+          "startedAt": "2026-11-23T10:46:43.074Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "IVvzYlm8j2OAqdXCe",
+        "url": "https://apify.com/wellbuilt_zythem/quebec-contractor-license-lookup"
+      },
+      {
+        "title": "App Store Reviews Scraper, Every Country in One Run",
+        "name": "app-store-reviews",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 3,
+          "totalRuns": 6,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T04:00:12.423Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 1,
+            "TIMED-OUT": 0,
+            "TOTAL": 1
+          }
+        },
+        "description": "Apple App Store reviews for any iOS app across every country store in one run: rating, title, text, date, app version and user. Filter by stars, date or keyword. Delta mode delivers only reviews new since your last run. Up to 500 latest reviews per app and country. Pay per review.",
+        "categories": [
+          "MARKETING",
+          "AUTOMATION"
+        ],
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "apify-actor-start": {
+                "eventTitle": "Actor Start",
+                "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+                "isOneTimeEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.00005
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.000048
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.000045
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.000045
+                  }
+                }
+              },
+              "review": {
+                "eventTitle": "Review",
+                "eventDescription": "One review delivered: rating, title, text, date and app version. Filtered-out and already delivered reviews cost nothing.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.0004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.0004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.00038
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.00036
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.00036
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.00036
+                  }
+                },
+                "isPrimaryEvent": true
+              }
+            }
+          },
+          "createdAt": "2026-11-20T04:57:17.426Z",
+          "startedAt": "2026-11-20T04:57:17.426Z",
+          "apifyMarginPercentage": 0.2
+        },
+        "id": "5CNNCcLPFU6dOek4b",
+        "url": "https://apify.com/wellbuilt_zythem/app-store-reviews"
+      },
+      {
+        "title": "Amazon Seller Scraper: VAT, Phone, Email & Company Status",
+        "name": "amazon-seller-scraper",
+        "username": "wellbuilt_zythem",
+        "stats": {
+          "totalBuilds": 11,
+          "totalRuns": 12,
+          "totalUsers": 2,
+          "totalUsers7Days": 1,
+          "totalUsers30Days": 1,
+          "totalUsers90Days": 1,
+          "lastRunStartedAt": "2026-11-23T04:30:31.532Z",
+          "actorReviewCount": 0,
+          "actorReviewRating": 0,
+          "bookmarkCount": 0,
+          "publicActorRunStats30Days": {
+            "ABORTED": 0,
+            "FAILED": 0,
+            "SUCCEEDED": 4,
+            "TIMED-OUT": 0,
+            "TOTAL": 4
+          }
+        },
+        "description": "Get Amazon third-party seller leads: legal business name, VAT number, trade register number, phone, email and address from seller profiles in the EU, UK and Brazil. Optional official company check (VIES, Companies House, KRS, SIRENE, CNPJ) and email check.",
+        "categories": [
+          "LEAD_GENERATION",
+          "ECOMMERCE"
+        ],
+        "notice": "NONE",
+        "bookmarkCount": 0,
+        "actorReviewRating": 0,
+        "actorReviewCount": 0,
+        "badge": null,
+        "isWhiteListedForAgenticPayments": true,
+        "userFullName": "Carlos Escanez",
+        "userPictureUrl": "https://images.apifyusercontent.com/CpbxtYGMsN6olGQtkhkeneG-25ODQvD485ps_OLnUeg/rs:fill:32:32/cb:1/aHR0cHM6Ly9pbWFnZXMuYXBpZnl1c2VyY29udGVudC5jb20vVVp5bFdQc3M3bGFjc2pTMzlWc3Q5cHB3M1Z4bFlSNjRJUzdpN1BiMWkyVS9yczpmaWxsOjMyOjMyL2NiOjEvYUhSMGNITTZMeTloZG1GMFlYSnpMbWRwZEdoMVluVnpaWEpqYjI1MFpXNTBMbU52YlM5MUx6STRNelU0TURFeU16OTJQVFE.webp",
+        "currentPricingInfo": {
+          "pricingModel": "PAY_PER_EVENT",
+          "pricingPerEvent": {
+            "actorChargeEvents": {
+              "seller": {
+                "eventTitle": "Seller saved",
+                "eventDescription": "One Amazon seller saved to the dataset, with business name, VAT, phone, email and address when the seller shows them.",
+                "isOneTimeEvent": false,
+                "isPrimaryEvent": true,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0024
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0024
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0024
+                  }
+                }
+              },
+              "official-check": {
+                "eventTitle": "Official company check",
+                "eventDescription": "Seller checked in an official register (VIES, Companies House, KRS, SIRENE, CNPJ). Charged only when a register answers.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.002
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0018
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0016
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0016
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0016
+                  }
+                }
+              },
+              "email-check": {
+                "eventTitle": "Email check",
+                "eventDescription": "Email domain, MX record and company website match checked.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.001
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0009
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0008
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0008
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0008
+                  }
+                }
+              },
+              "vat-registrations": {
+                "eventTitle": "All EU VAT numbers",
+                "eventDescription": "VAT number collected from every EU Amazon store for the seller.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.004
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0036
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0032
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0032
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0032
+                  }
+                }
+              },
+              "brazil-contacts": {
+                "eventTitle": "Brazil registered contacts",
+                "eventDescription": "Email and phone registered with the Receita Federal for a CNPJ seller.",
+                "isOneTimeEvent": false,
+                "eventTieredPricingUsd": {
+                  "FREE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "BRONZE": {
+                    "tieredEventPriceUsd": 0.003
+                  },
+                  "SILVER": {
+                    "tieredEventPriceUsd": 0.0027
+                  },
+                  "GOLD": {
+                    "tieredEventPriceUsd": 0.0024
+                  },
+                  "PLATINUM": {
+                    "tieredEventPriceUsd": 0.0024
+                  },
+                  "DIAMOND": {
+                    "tieredEventPriceUsd": 0.0024
+                  }
+                }
+              }
+            }
+          },
+          "reasonForChange": "Store discounts: lower prices for SILVER and GOLD subscribers. Prices for FREE and BRONZE do not change.",
+          "createdAt": "2026-11-20T04:58:03.888Z",
+          "startedAt": "2026-11-20T04:58:03.888Z",
+          "apifyMarginPercentage": 0.2,
+          "notifiedAboutChangeAt": "2026-11-20T05:00:38.863Z"
+        },
+        "id": "0k7QPWQj1gZTD8wnw",
+        "url": "https://apify.com/wellbuilt_zythem/amazon-seller-scraper"
       }
     ]
   }
